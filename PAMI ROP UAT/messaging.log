@@ -1,0 +1,1306 @@
+2022-01-11 12:10:02,713 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f3465864] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 12:10:02,786 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 12:10:03,000 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 12:10:03,014 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:10:03,015 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 12:10:03,015 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 12:10:03,127 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 12:10:03,127 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5747 ms
+2022-01-11 12:10:03,469 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 12:10:03,585 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:10:03,936 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 12:10:03,958 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:10:04,001 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-01-11 12:14:23,098 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9999-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 12:14:23,099 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-01-11 12:14:23,102 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-2] Completed initialization in 2 ms
+2022-01-11 12:22:46,964 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(25)-127.0.0.1] Application shutdown requested.
+2022-01-11 12:22:47,262 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(25)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:22:51,575 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 2316 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 12:22:51,580 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 12:22:56,127 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f3465864] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 12:22:56,160 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 12:22:56,365 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 12:22:56,377 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:22:56,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 12:22:56,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 12:22:56,488 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 12:22:56,489 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4854 ms
+2022-01-11 12:22:56,883 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 12:22:57,000 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:22:57,331 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 12:22:57,354 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:22:57,372 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-01-11 12:22:57,386 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.165 seconds (JVM running for 7.415)
+2022-01-11 12:23:00,128 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 12:23:00,129 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-01-11 12:23:00,133 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2022-01-11 12:23:01,650 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 12:23:01,655 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 12:23:01,656 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 12:23:02,307 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 12:23:02,307 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 12:23:02,567 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 12:23:02,567 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 12:23:02,568 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 12:23:02,568 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 12:23:02,568 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 12:23:02,777 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 12:23:02,777 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 12:23:02,978 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 12:23:02,978 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 12:23:03,193 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 12:23:03,366 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 12:23:03,369 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 12:23:03,620 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-01-11 12:26:06,940 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 3476 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 12:26:06,945 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 12:26:11,547 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f3465864] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 12:26:11,580 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 12:26:11,792 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 12:26:11,806 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:11,806 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 12:26:11,807 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 12:26:11,920 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 12:26:11,921 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4927 ms
+2022-01-11 12:26:12,241 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 12:26:12,347 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:26:12,675 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 12:26:12,699 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:12,710 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-01-11 12:26:12,711 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:26:12,714 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:12,715 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-01-11 12:26:12,783 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:12,784 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:12,801 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-11 12:26:12,814 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2022-01-11 12:26:15,385 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2022-01-11 12:26:15,705 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(13)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:26:24,338 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 15272 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 12:26:24,341 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 12:26:28,913 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f712e622] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 12:26:28,944 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 12:26:29,152 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 12:26:29,165 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:29,166 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 12:26:29,166 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 12:26:29,279 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 12:26:29,279 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4885 ms
+2022-01-11 12:26:29,598 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 12:26:29,708 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 12:26:30,048 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 12:26:30,072 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 12:26:30,091 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-01-11 12:26:30,104 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.101 seconds (JVM running for 7.345)
+2022-01-11 12:26:46,161 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9999-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 12:26:46,162 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-01-11 12:26:46,164 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Completed initialization in 1 ms
+2022-01-11 12:26:46,182 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 12:26:46,195 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 12:26:46,199 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 12:26:46,796 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 12:26:46,796 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 12:26:47,056 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-01-11 12:26:47,056 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-01-11 12:26:47,057 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-01-11 12:26:47,057 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 12:26:47,057 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 12:26:47,265 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 12:26:47,266 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 12:26:47,456 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-01-11 12:26:47,456 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-01-11 12:26:47,671 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 12:26:47,740 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-01-11 12:26:47,742 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 12:26:47,967 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-01-11 12:27:27,733 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 12:27:27,733 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 12:27:27,734 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 12:27:27,926 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 12:27:27,926 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 12:27:28,161 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 12:27:28,161 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 12:27:28,162 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 12:27:28,162 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 12:27:28,162 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 12:27:28,359 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 12:27:28,359 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 12:27:28,556 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 12:27:28,556 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 12:27:28,771 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 12:27:28,798 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 12:27:28,799 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 12:27:29,043 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-01-11 13:00:17,687 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(44)-127.0.0.1] Application shutdown requested.
+2022-01-11 13:00:17,981 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(44)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 13:00:31,940 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 2952 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 13:00:31,947 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 13:00:36,546 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c09811e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 13:00:36,576 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 13:00:36,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 13:00:36,789 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 13:00:36,790 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 13:00:36,791 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 13:00:36,922 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 13:00:36,922 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4905 ms
+2022-01-11 13:00:37,261 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 13:00:37,366 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 13:00:37,689 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 13:00:37,710 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 13:00:37,728 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-01-11 13:00:37,740 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.223 seconds (JVM running for 7.406)
+2022-01-11 13:03:08,274 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9999-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 13:03:08,275 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-01-11 13:03:08,277 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Completed initialization in 1 ms
+2022-01-11 13:03:08,294 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 13:03:08,298 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:03:08,300 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:03:08,913 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 13:03:08,914 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 13:03:09,213 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-01-11 13:03:09,213 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-01-11 13:03:09,214 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-01-11 13:03:09,214 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:09,215 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:03:09,434 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:09,434 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:03:09,677 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-01-11 13:03:09,678 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-01-11 13:03:09,980 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:03:10,054 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-01-11 13:03:10,056 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 13:03:10,328 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-01-11 13:03:25,136 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:03:25,137 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:03:25,138 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:03:25,383 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:03:25,383 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+
+2022-01-11 13:03:25,613 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:03:25,613 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:03:25,614 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:03:25,614 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:25,614 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:03:25,845 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:25,845 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:03:26,052 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:03:26,053 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:03:26,284 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:03:26,310 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:03:26,311 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:03:26,523 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-01-11 13:03:49,972 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:03:49,973 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:03:49,973 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:03:50,192 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:03:50,192 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:03:50,488 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:03:50,488 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:03:50,489 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:03:50,489 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:50,489 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:03:50,666 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:50,666 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:03:50,882 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:03:50,882 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:03:51,103 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:03:51,121 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:03:51,121 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:03:51,305 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-4-thread-1] Auditing in database.
+2022-01-11 13:03:52,173 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:03:52,173 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:03:52,174 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:03:52,382 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:03:52,383 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:03:52,612 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:03:52,613 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:03:52,613 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:03:52,613 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:52,614 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:03:52,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:52,833 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:03:53,063 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:03:53,063 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:03:53,266 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:03:53,291 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:03:53,291 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:03:53,557 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-5-thread-1] Auditing in database.
+2022-01-11 13:03:54,323 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:03:54,324 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:03:54,324 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:03:54,533 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:03:54,533 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:03:54,742 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:03:54,742 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:03:54,742 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:03:54,743 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:54,743 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:03:54,952 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:03:54,952 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:03:55,152 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:03:55,152 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:03:55,374 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:03:55,391 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:03:55,392 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:03:55,592 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-6-thread-1] Auditing in database.
+2022-01-11 13:04:53,266 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside prehandle
+2022-01-11 13:04:53,266 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:04:53,267 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:04:53,482 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside DDOS filtering
+2022-01-11 13:04:53,482 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside get error codes.
+2022-01-11 13:04:53,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] inside request param validation
+2022-01-11 13:04:53,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] In Timestamp validation
+2022-01-11 13:04:53,833 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] The timestamp difference is--
+2022-01-11 13:04:53,833 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:04:53,833 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:04:54,151 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:04:54,151 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:04:54,362 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Whitelisted
+2022-01-11 13:04:54,362 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside is whiteListed
+2022-01-11 13:04:54,563 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-7] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:04:54,578 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] In post handle
+2022-01-11 13:04:54,578 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-7] Auditing records in AuditDataProcessor.
+2022-01-11 13:04:54,806 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-7-thread-1] Auditing in database.
+2022-01-11 13:04:57,219 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside prehandle
+2022-01-11 13:04:57,219 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:04:57,220 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:04:57,442 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside DDOS filtering
+2022-01-11 13:04:57,442 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside get error codes.
+2022-01-11 13:04:57,664 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] inside request param validation
+2022-01-11 13:04:57,664 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] In Timestamp validation
+2022-01-11 13:04:57,665 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] The timestamp difference is--
+2022-01-11 13:04:57,665 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:04:57,665 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:04:57,862 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:04:57,862 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:04:58,072 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Whitelisted
+2022-01-11 13:04:58,073 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside is whiteListed
+2022-01-11 13:04:58,264 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-8] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:04:58,289 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] In post handle
+2022-01-11 13:04:58,289 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-8] Auditing records in AuditDataProcessor.
+2022-01-11 13:04:58,543 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-8-thread-1] Auditing in database.
+2022-01-11 13:05:32,141 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside prehandle
+2022-01-11 13:05:32,142 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:05:32,143 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:05:32,361 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside DDOS filtering
+2022-01-11 13:05:32,361 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside get error codes.
+2022-01-11 13:05:32,583 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] inside request param validation
+2022-01-11 13:05:32,583 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] In Timestamp validation
+2022-01-11 13:05:32,584 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] The timestamp difference is--
+2022-01-11 13:05:32,584 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:05:32,584 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:05:32,802 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:05:32,802 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:05:33,016 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Whitelisted
+2022-01-11 13:05:33,016 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside is whiteListed
+2022-01-11 13:05:33,233 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-9] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:05:33,248 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] In post handle
+2022-01-11 13:05:33,249 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-9] Auditing records in AuditDataProcessor.
+2022-01-11 13:05:33,506 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-9-thread-1] Auditing in database.
+2022-01-11 13:05:35,932 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside prehandle
+2022-01-11 13:05:35,932 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:05:35,933 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:05:36,209 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside DDOS filtering
+2022-01-11 13:05:36,209 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside get error codes.
+2022-01-11 13:05:36,454 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] inside request param validation
+2022-01-11 13:05:36,454 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] In Timestamp validation
+2022-01-11 13:05:36,456 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] The timestamp difference is--
+2022-01-11 13:05:36,456 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:05:36,456 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:05:36,746 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:05:36,746 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:05:36,973 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Whitelisted
+2022-01-11 13:05:36,973 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside is whiteListed
+2022-01-11 13:05:37,252 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-10] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:05:37,272 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] In post handle
+2022-01-11 13:05:37,273 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-10] Auditing records in AuditDataProcessor.
+2022-01-11 13:05:37,512 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-10-thread-1] Auditing in database.
+2022-01-11 13:06:01,675 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 13:06:01,676 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:01,676 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:01,951 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 13:06:01,951 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 13:06:02,284 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 13:06:02,284 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 13:06:02,285 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 13:06:02,285 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:02,285 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:06:02,542 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:02,542 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:06:02,816 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 13:06:02,816 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 13:06:03,095 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:03,123 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 13:06:03,124 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:03,412 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-11-thread-1] Auditing in database.
+2022-01-11 13:06:04,092 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 13:06:04,092 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:04,093 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:04,362 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 13:06:04,362 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 13:06:04,670 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-01-11 13:06:04,670 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-01-11 13:06:04,671 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-01-11 13:06:04,672 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:04,672 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:06:04,942 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:04,942 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:06:05,222 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-01-11 13:06:05,222 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-01-11 13:06:05,432 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:05,458 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-01-11 13:06:05,458 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:05,724 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-12-thread-1] Auditing in database.
+2022-01-11 13:06:06,723 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:06:06,723 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:06,724 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:06,951 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:06:06,952 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 13:06:07,182 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:06:07,182 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:06:07,182 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:06:07,183 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:07,183 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:06:07,382 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:07,382 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:06:07,601 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:06:07,602 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:06:07,863 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:07,885 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:06:07,885 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:08,182 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-13-thread-1] Auditing in database.
+2022-01-11 13:06:09,462 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:06:09,462 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:09,463 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:09,661 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:06:09,661 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:06:09,892 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:06:09,892 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:06:09,892 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:06:09,893 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:09,893 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:06:10,101 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:10,101 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:06:10,301 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:06:10,301 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:06:10,532 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:10,551 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:06:10,551 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:10,796 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-14-thread-1] Auditing in database.
+2022-01-11 13:06:11,879 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:06:11,880 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:11,880 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:12,082 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:06:12,082 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:06:12,281 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:06:12,282 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:06:12,282 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:06:12,282 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:12,282 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:06:12,461 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:12,462 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:06:12,641 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:06:12,641 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:06:12,833 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:12,849 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:06:12,849 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:13,111 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-15-thread-1] Auditing in database.
+2022-01-11 13:06:14,165 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:06:14,165 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:14,165 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:14,351 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:06:14,351 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:06:14,573 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:06:14,573 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:06:14,573 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:06:14,573 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:14,574 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:06:14,792 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:14,792 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:06:15,002 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:06:15,002 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:06:15,202 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:15,229 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:06:15,230 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:15,460 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-16-thread-1] Auditing in database.
+2022-01-11 13:06:16,226 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside prehandle
+2022-01-11 13:06:16,227 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:16,227 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:16,435 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside DDOS filtering
+2022-01-11 13:06:16,435 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside get error codes.
+2022-01-11 13:06:16,642 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] inside request param validation
+2022-01-11 13:06:16,642 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] In Timestamp validation
+2022-01-11 13:06:16,642 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] The timestamp difference is--
+2022-01-11 13:06:16,643 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:16,643 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:06:16,821 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:16,821 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:06:17,032 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Whitelisted
+2022-01-11 13:06:17,032 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside is whiteListed
+2022-01-11 13:06:17,253 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-7] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:17,272 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] In post handle
+2022-01-11 13:06:17,272 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-7] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:17,467 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-17-thread-1] Auditing in database.
+2022-01-11 13:06:18,463 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside prehandle
+2022-01-11 13:06:18,464 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:18,464 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:18,661 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside DDOS filtering
+2022-01-11 13:06:18,661 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside get error codes.
+2022-01-11 13:06:18,892 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] inside request param validation
+2022-01-11 13:06:18,892 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] In Timestamp validation
+2022-01-11 13:06:18,892 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] The timestamp difference is--
+2022-01-11 13:06:18,893 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:18,893 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:06:19,102 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:19,102 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:06:19,312 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Whitelisted
+2022-01-11 13:06:19,312 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside is whiteListed
+2022-01-11 13:06:19,495 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-8] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:19,522 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] In post handle
+2022-01-11 13:06:19,522 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-8] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:19,754 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-18-thread-1] Auditing in database.
+2022-01-11 13:06:21,019 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside prehandle
+2022-01-11 13:06:21,020 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:21,020 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:21,221 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside DDOS filtering
+2022-01-11 13:06:21,221 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside get error codes.
+2022-01-11 13:06:21,442 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] inside request param validation
+2022-01-11 13:06:21,442 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] In Timestamp validation
+2022-01-11 13:06:21,443 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] The timestamp difference is--
+2022-01-11 13:06:21,443 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:21,443 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:06:21,671 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:21,671 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:06:21,853 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Whitelisted
+2022-01-11 13:06:21,853 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside is whiteListed
+2022-01-11 13:06:22,072 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-9] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:22,098 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] In post handle
+2022-01-11 13:06:22,099 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-9] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:22,363 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-19-thread-1] Auditing in database.
+2022-01-11 13:06:23,820 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside prehandle
+2022-01-11 13:06:23,820 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:23,821 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:24,022 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside DDOS filtering
+2022-01-11 13:06:24,022 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside get error codes.
+2022-01-11 13:06:24,242 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] inside request param validation
+2022-01-11 13:06:24,242 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] In Timestamp validation
+2022-01-11 13:06:24,242 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] The timestamp difference is--
+2022-01-11 13:06:24,243 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:24,243 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:06:24,452 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:24,452 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:06:24,652 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Whitelisted
+2022-01-11 13:06:24,652 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside is whiteListed
+2022-01-11 13:06:24,862 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-10] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:24,882 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] In post handle
+2022-01-11 13:06:24,882 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-10] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:25,134 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-20-thread-1] Auditing in database.
+2022-01-11 13:06:25,904 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 13:06:25,905 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:06:25,905 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:06:26,121 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 13:06:26,121 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 13:06:26,352 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 13:06:26,352 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 13:06:26,352 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 13:06:26,353 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:26,353 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:06:26,572 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:06:26,572 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:06:26,762 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 13:06:26,762 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 13:06:26,971 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:06:26,984 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 13:06:26,984 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 13:06:27,201 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-21-thread-1] Auditing in database.
+2022-01-11 13:07:04,720 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 13:07:04,721 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:04,721 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:04,934 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 13:07:04,934 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 13:07:05,161 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-01-11 13:07:05,161 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-01-11 13:07:05,161 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-01-11 13:07:05,162 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:05,162 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:07:05,362 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:05,362 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:07:05,582 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-01-11 13:07:05,582 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-01-11 13:07:05,813 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:05,827 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-01-11 13:07:05,827 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:06,068 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-22-thread-1] Auditing in database.
+2022-01-11 13:07:07,648 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:07:07,648 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:07,649 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:07,891 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:07:07,891 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 13:07:08,111 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:07:08,111 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:07:08,111 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:07:08,112 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:08,112 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:07:08,332 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:08,333 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:07:08,531 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:07:08,531 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:07:08,752 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:08,763 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:07:08,764 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:08,964 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-23-thread-1] Auditing in database.
+2022-01-11 13:07:09,405 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:07:09,405 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:09,406 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:09,612 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:07:09,612 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:07:09,831 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:07:09,831 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:07:09,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:07:09,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:09,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:07:10,051 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:10,051 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:07:10,261 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:07:10,261 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:07:10,471 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:10,484 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:07:10,485 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:10,745 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-24-thread-1] Auditing in database.
+2022-01-11 13:07:50,363 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:07:50,363 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:50,364 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:50,563 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:07:50,563 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:07:50,881 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:07:50,881 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:07:50,882 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:07:50,882 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:50,882 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:07:51,101 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:51,101 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:07:51,321 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:07:51,322 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:07:51,521 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:51,536 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:07:51,537 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:51,766 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-25-thread-1] Auditing in database.
+2022-01-11 13:07:52,217 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:07:52,218 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:52,218 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:52,406 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:07:52,406 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:07:52,621 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:07:52,621 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:07:52,622 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:07:52,622 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:52,622 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:07:52,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:52,832 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:07:53,031 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:07:53,031 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:07:53,305 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:53,326 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:07:53,326 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:53,683 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-26-thread-1] Auditing in database.
+2022-01-11 13:07:53,702 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:07:53,702 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:53,702 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:53,978 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:07:53,978 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:07:54,222 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:07:54,222 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:07:54,223 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:07:54,223 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:54,223 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:07:54,487 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:54,488 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:07:54,741 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:07:54,741 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:07:55,036 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:55,055 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:07:55,056 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:55,253 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-27-thread-1] Auditing in database.
+2022-01-11 13:07:56,816 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside prehandle
+2022-01-11 13:07:56,817 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:07:56,817 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:07:57,035 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside DDOS filtering
+2022-01-11 13:07:57,035 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside get error codes.
+2022-01-11 13:07:57,354 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] inside request param validation
+2022-01-11 13:07:57,354 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] In Timestamp validation
+2022-01-11 13:07:57,355 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] The timestamp difference is--
+2022-01-11 13:07:57,355 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:57,355 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:07:57,640 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:07:57,641 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:07:57,831 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Whitelisted
+2022-01-11 13:07:57,831 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside is whiteListed
+2022-01-11 13:07:58,011 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-7] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:07:58,029 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] In post handle
+2022-01-11 13:07:58,029 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-7] Auditing records in AuditDataProcessor.
+2022-01-11 13:07:58,223 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-28-thread-1] Auditing in database.
+2022-01-11 13:08:01,753 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside prehandle
+2022-01-11 13:08:01,754 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:08:01,754 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:08:02,082 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside DDOS filtering
+2022-01-11 13:08:02,083 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside get error codes.
+2022-01-11 13:08:02,350 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] inside request param validation
+2022-01-11 13:08:02,350 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] In Timestamp validation
+2022-01-11 13:08:02,351 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] The timestamp difference is--
+2022-01-11 13:08:02,351 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:02,351 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:08:02,632 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:02,632 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:08:02,951 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Whitelisted
+2022-01-11 13:08:02,951 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside is whiteListed
+2022-01-11 13:08:03,192 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-8] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:08:03,208 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] In post handle
+2022-01-11 13:08:03,209 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-8] Auditing records in AuditDataProcessor.
+2022-01-11 13:08:03,517 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-29-thread-1] Auditing in database.
+2022-01-11 13:08:53,336 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside prehandle
+2022-01-11 13:08:53,337 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:08:53,337 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:08:53,550 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside DDOS filtering
+2022-01-11 13:08:53,550 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside get error codes.
+2022-01-11 13:08:53,781 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] inside request param validation
+2022-01-11 13:08:53,781 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] In Timestamp validation
+2022-01-11 13:08:53,781 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] The timestamp difference is--
+2022-01-11 13:08:53,782 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:53,782 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:08:54,081 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:54,081 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:08:54,360 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Whitelisted
+2022-01-11 13:08:54,360 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside is whiteListed
+2022-01-11 13:08:54,581 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-9] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:08:54,602 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] In post handle
+2022-01-11 13:08:54,602 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-9] Auditing records in AuditDataProcessor.
+2022-01-11 13:08:54,908 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-30-thread-1] Auditing in database.
+2022-01-11 13:08:56,138 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside prehandle
+2022-01-11 13:08:56,139 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:08:56,139 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:08:56,342 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside DDOS filtering
+2022-01-11 13:08:56,342 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside get error codes.
+2022-01-11 13:08:56,571 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] inside request param validation
+2022-01-11 13:08:56,571 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] In Timestamp validation
+2022-01-11 13:08:56,572 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] The timestamp difference is--
+2022-01-11 13:08:56,572 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:56,572 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:08:56,772 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:56,773 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:08:56,992 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Whitelisted
+2022-01-11 13:08:56,992 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside is whiteListed
+2022-01-11 13:08:57,236 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-10] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:08:57,259 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] In post handle
+2022-01-11 13:08:57,260 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-10] Auditing records in AuditDataProcessor.
+2022-01-11 13:08:57,492 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-31-thread-1] Auditing in database.
+2022-01-11 13:08:58,678 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 13:08:58,678 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:08:58,679 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:08:58,940 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 13:08:58,941 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 13:08:59,181 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 13:08:59,181 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 13:08:59,181 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 13:08:59,181 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:59,182 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:08:59,381 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:08:59,381 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:08:59,593 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 13:08:59,593 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 13:08:59,813 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:08:59,830 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 13:08:59,831 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:00,075 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-32-thread-1] Auditing in database.
+2022-01-11 13:09:00,875 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 13:09:00,876 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:09:00,876 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:09:01,140 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 13:09:01,141 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 13:09:01,413 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-01-11 13:09:01,413 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-01-11 13:09:01,414 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-01-11 13:09:01,414 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:01,414 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:09:01,661 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:01,661 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:09:01,870 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-01-11 13:09:01,871 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-01-11 13:09:02,091 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:09:02,114 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-01-11 13:09:02,114 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:02,305 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-33-thread-1] Auditing in database.
+2022-01-11 13:09:05,169 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:09:05,170 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:09:05,170 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:09:05,390 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:09:05,390 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 13:09:05,660 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:09:05,660 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:09:05,661 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:09:05,661 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:05,661 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:09:05,928 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:05,928 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:09:06,201 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:09:06,201 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:09:06,411 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:09:06,434 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:09:06,434 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:06,779 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-34-thread-1] Auditing in database.
+2022-01-11 13:09:07,627 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:09:07,627 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:09:07,627 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:09:07,870 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:09:07,870 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:09:08,112 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:09:08,112 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:09:08,112 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:09:08,113 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:08,113 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:09:08,339 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:08,340 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:09:08,581 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:09:08,581 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:09:08,861 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:09:08,874 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:09:08,875 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:09,141 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-35-thread-1] Auditing in database.
+2022-01-11 13:09:10,137 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:09:10,138 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:09:10,138 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:09:10,470 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:09:10,471 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:09:10,710 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:09:10,710 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:09:10,710 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:09:10,710 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:10,711 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:09:10,930 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:10,930 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:09:11,140 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:09:11,140 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:09:11,351 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:09:11,375 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:09:11,376 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:11,613 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-36-thread-1] Auditing in database.
+2022-01-11 13:09:12,545 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:09:12,546 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:09:12,546 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:09:12,840 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:09:12,840 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:09:13,081 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:09:13,081 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:09:13,082 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:09:13,082 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:13,082 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:09:13,280 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:13,280 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:09:13,492 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:09:13,492 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:09:13,753 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:09:13,776 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:09:13,777 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:14,062 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-37-thread-1] Auditing in database.
+2022-01-11 13:09:58,050 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside prehandle
+2022-01-11 13:09:58,050 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:09:58,050 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:09:58,330 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside DDOS filtering
+2022-01-11 13:09:58,330 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside get error codes.
+2022-01-11 13:09:58,673 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] inside request param validation
+2022-01-11 13:09:58,673 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] In Timestamp validation
+2022-01-11 13:09:58,674 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] The timestamp difference is--
+2022-01-11 13:09:58,674 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:58,674 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:09:58,945 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:09:58,945 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:09:59,210 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Whitelisted
+2022-01-11 13:09:59,210 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside is whiteListed
+2022-01-11 13:09:59,430 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-7] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:09:59,453 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] In post handle
+2022-01-11 13:09:59,455 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-7] Auditing records in AuditDataProcessor.
+2022-01-11 13:09:59,676 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-38-thread-1] Auditing in database.
+2022-01-11 13:10:00,295 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside prehandle
+2022-01-11 13:10:00,295 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:00,295 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:00,490 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside DDOS filtering
+2022-01-11 13:10:00,490 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside get error codes.
+2022-01-11 13:10:00,690 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] inside request param validation
+2022-01-11 13:10:00,691 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] In Timestamp validation
+2022-01-11 13:10:00,691 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] The timestamp difference is--
+2022-01-11 13:10:00,691 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:00,691 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:10:00,890 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:00,891 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:10:01,101 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Whitelisted
+2022-01-11 13:10:01,101 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside is whiteListed
+2022-01-11 13:10:01,330 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-8] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:01,354 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] In post handle
+2022-01-11 13:10:01,354 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-8] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:01,584 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-39-thread-1] Auditing in database.
+2022-01-11 13:10:02,073 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside prehandle
+2022-01-11 13:10:02,074 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:02,074 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:02,350 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside DDOS filtering
+2022-01-11 13:10:02,350 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside get error codes.
+2022-01-11 13:10:02,640 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] inside request param validation
+2022-01-11 13:10:02,640 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] In Timestamp validation
+2022-01-11 13:10:02,641 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] The timestamp difference is--
+2022-01-11 13:10:02,641 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:02,641 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:10:02,863 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:02,863 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:10:03,092 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Whitelisted
+2022-01-11 13:10:03,092 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside is whiteListed
+2022-01-11 13:10:03,311 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-9] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:03,327 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] In post handle
+2022-01-11 13:10:03,327 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-9] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:03,583 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-40-thread-1] Auditing in database.
+2022-01-11 13:10:04,075 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside prehandle
+2022-01-11 13:10:04,075 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:04,076 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:04,270 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] Inside DDOS filtering
+2022-01-11 13:10:04,270 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-10] Inside get error codes.
+2022-01-11 13:10:04,561 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] inside request param validation
+2022-01-11 13:10:04,561 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] In Timestamp validation
+2022-01-11 13:10:04,561 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] The timestamp difference is--
+2022-01-11 13:10:04,562 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:04,562 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:10:04,802 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:04,802 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside getAuthKeyFromDB..
+2022-01-11 13:10:05,084 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Whitelisted
+2022-01-11 13:10:05,084 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-10] Inside is whiteListed
+2022-01-11 13:10:05,300 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-10] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:05,327 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-10] In post handle
+2022-01-11 13:10:05,327 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-10] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:05,600 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-41-thread-1] Auditing in database.
+2022-01-11 13:10:34,040 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 13:10:34,040 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:34,040 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:34,230 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 13:10:34,230 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 13:10:34,440 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 13:10:34,440 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 13:10:34,440 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 13:10:34,440 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:34,440 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:10:34,630 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:34,630 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:10:34,830 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 13:10:34,830 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 13:10:35,070 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:35,087 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 13:10:35,087 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:35,303 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-42-thread-1] Auditing in database.
+2022-01-11 13:10:35,902 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 13:10:35,902 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:35,903 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:36,090 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 13:10:36,090 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 13:10:36,367 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-01-11 13:10:36,368 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-01-11 13:10:36,368 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-01-11 13:10:36,368 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:36,368 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:10:36,651 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:36,651 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-01-11 13:10:37,031 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-01-11 13:10:37,032 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-01-11 13:10:37,281 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:37,298 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-01-11 13:10:37,299 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:37,571 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-43-thread-1] Auditing in database.
+2022-01-11 13:10:38,141 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:10:38,142 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:38,142 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:38,413 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:10:38,413 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 13:10:38,720 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:10:38,720 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:10:38,720 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:10:38,721 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:38,721 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:10:38,999 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:38,999 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:10:39,230 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:10:39,231 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:10:39,512 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:39,536 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:10:39,536 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:39,815 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-44-thread-1] Auditing in database.
+2022-01-11 13:10:40,334 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:10:40,335 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:40,335 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:40,579 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:10:40,579 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:10:40,824 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:10:40,824 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:10:40,824 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:10:40,825 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:40,825 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:10:41,055 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:41,055 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:10:41,330 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:10:41,331 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:10:41,602 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:41,620 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:10:41,621 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:41,874 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-45-thread-1] Auditing in database.
+2022-01-11 13:10:42,491 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:10:42,492 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:42,492 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:42,813 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:10:42,813 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:10:43,073 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:10:43,073 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:10:43,073 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:10:43,073 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:43,073 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:10:43,360 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:43,360 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:10:43,634 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:10:43,634 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:10:43,851 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:43,867 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:10:43,867 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:44,124 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-46-thread-1] Auditing in database.
+2022-01-11 13:10:44,585 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:10:44,585 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:10:44,586 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:10:44,799 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:10:44,799 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:10:45,010 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:10:45,010 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:10:45,010 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:10:45,011 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:45,011 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:10:45,181 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:10:45,181 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:10:45,340 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:10:45,340 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:10:45,510 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:10:45,526 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:10:45,526 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:10:45,758 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-47-thread-1] Auditing in database.
+2022-01-11 13:11:31,387 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2022-01-11 13:11:31,681 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(19)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 13:11:49,704 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 16552 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 13:11:49,707 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 13:11:54,122 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b0e4ed22] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 13:11:54,154 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 13:11:54,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 13:11:54,368 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 13:11:54,369 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 13:11:54,369 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 13:11:54,478 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 13:11:54,478 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4724 ms
+2022-01-11 13:11:54,781 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 13:11:54,885 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 13:11:55,204 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 13:11:55,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 13:11:55,243 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-01-11 13:11:55,255 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 5.848 seconds (JVM running for 6.996)
+2022-01-11 13:12:16,924 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9999-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 13:12:16,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-01-11 13:12:16,927 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-2] Completed initialization in 1 ms
+2022-01-11 13:12:16,940 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 13:12:16,944 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:16,946 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:17,609 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 13:12:17,609 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 13:12:17,851 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 13:12:17,851 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 13:12:17,852 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 13:12:17,852 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:17,852 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:12:18,102 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:18,102 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:12:18,331 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 13:12:18,332 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 13:12:18,586 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:20,665 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 13:12:20,667 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:20,984 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-01-11 13:12:39,826 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:12:39,827 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:39,827 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:40,050 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:12:40,051 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 13:12:40,280 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:12:40,280 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:12:40,281 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:12:40,281 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:40,281 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:12:40,482 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:40,482 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:12:40,691 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:12:40,691 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:12:40,902 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:41,017 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:12:41,019 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:41,310 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-01-11 13:12:42,708 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:12:42,709 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:42,709 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:43,075 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:12:43,075 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:12:43,379 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:12:43,379 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:12:43,380 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:12:43,380 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:43,380 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:12:43,679 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:43,680 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:12:43,929 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:12:43,929 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:12:44,232 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:44,272 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:12:44,273 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:44,589 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-4-thread-1] Auditing in database.
+2022-01-11 13:12:45,290 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:12:45,294 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:45,296 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:45,539 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:12:45,539 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:12:45,776 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:12:45,776 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:12:45,777 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:12:45,777 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:45,777 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:12:46,042 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:46,042 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:12:46,238 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:12:46,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:12:46,452 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:46,478 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:12:46,478 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:46,696 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-5-thread-1] Auditing in database.
+2022-01-11 13:12:48,741 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-01-11 13:12:48,741 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:48,741 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:48,969 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-01-11 13:12:48,969 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-01-11 13:12:49,220 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-01-11 13:12:49,220 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-01-11 13:12:49,220 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-01-11 13:12:49,221 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:49,221 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:12:49,427 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:49,427 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-01-11 13:12:49,639 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-01-11 13:12:49,639 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-01-11 13:12:49,871 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:49,890 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-01-11 13:12:49,890 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:50,249 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-6-thread-1] Auditing in database.
+2022-01-11 13:12:50,764 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside prehandle
+2022-01-11 13:12:50,764 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:50,764 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:51,050 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] Inside DDOS filtering
+2022-01-11 13:12:51,050 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-7] Inside get error codes.
+2022-01-11 13:12:51,399 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] inside request param validation
+2022-01-11 13:12:51,400 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] In Timestamp validation
+2022-01-11 13:12:51,400 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] The timestamp difference is--
+2022-01-11 13:12:51,401 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:51,401 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:12:51,666 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:51,667 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside getAuthKeyFromDB..
+2022-01-11 13:12:51,880 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Whitelisted
+2022-01-11 13:12:51,880 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-7] Inside is whiteListed
+2022-01-11 13:12:52,101 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-7] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:52,128 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-7] In post handle
+2022-01-11 13:12:52,129 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-7] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:52,344 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-7-thread-1] Auditing in database.
+2022-01-11 13:12:52,899 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside prehandle
+2022-01-11 13:12:52,900 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:52,900 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:53,201 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] Inside DDOS filtering
+2022-01-11 13:12:53,201 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-8] Inside get error codes.
+2022-01-11 13:12:53,466 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] inside request param validation
+2022-01-11 13:12:53,467 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] In Timestamp validation
+2022-01-11 13:12:53,467 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] The timestamp difference is--
+2022-01-11 13:12:53,467 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:53,468 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:12:53,710 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:53,710 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside getAuthKeyFromDB..
+2022-01-11 13:12:53,974 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Whitelisted
+2022-01-11 13:12:53,974 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-8] Inside is whiteListed
+2022-01-11 13:12:54,257 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-8] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:54,282 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-8] In post handle
+2022-01-11 13:12:54,283 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-8] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:54,614 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-8-thread-1] Auditing in database.
+2022-01-11 13:12:55,335 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside prehandle
+2022-01-11 13:12:55,336 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:12:55,336 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:12:55,550 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] Inside DDOS filtering
+2022-01-11 13:12:55,550 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-9] Inside get error codes.
+2022-01-11 13:12:55,771 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] inside request param validation
+2022-01-11 13:12:55,771 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] In Timestamp validation
+2022-01-11 13:12:55,772 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] The timestamp difference is--
+2022-01-11 13:12:55,772 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:55,772 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:12:55,991 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:12:55,991 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside getAuthKeyFromDB..
+2022-01-11 13:12:56,209 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Whitelisted
+2022-01-11 13:12:56,209 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-9] Inside is whiteListed
+2022-01-11 13:12:56,560 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-9] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:12:56,579 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-9] In post handle
+2022-01-11 13:12:56,580 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-9] Auditing records in AuditDataProcessor.
+2022-01-11 13:12:56,916 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-9-thread-1] Auditing in database.
+2022-01-11 13:13:58,763 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-01-11 13:13:58,764 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:13:58,764 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:13:58,969 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-01-11 13:13:58,969 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-01-11 13:13:59,238 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-01-11 13:13:59,238 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-01-11 13:13:59,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-01-11 13:13:59,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:13:59,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:13:59,480 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:13:59,480 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-01-11 13:13:59,689 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-01-11 13:13:59,689 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-01-11 13:13:59,883 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:13:59,906 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-01-11 13:13:59,906 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-01-11 13:14:00,148 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-10-thread-1] Auditing in database.
+2022-01-11 13:14:11,399 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-01-11 13:14:11,400 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:14:11,400 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:14:11,708 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-01-11 13:14:11,708 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-01-11 13:14:12,130 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-01-11 13:14:12,130 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-01-11 13:14:12,131 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-01-11 13:14:12,131 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:14:12,132 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:14:12,419 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:14:12,419 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-01-11 13:14:12,698 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-01-11 13:14:12,698 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-01-11 13:14:13,010 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:14:13,047 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-01-11 13:14:13,048 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-01-11 13:14:13,290 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-11-thread-1] Auditing in database.
+2022-01-11 13:14:13,853 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-01-11 13:14:13,853 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:14:13,854 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:14:14,148 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-01-11 13:14:14,149 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-01-11 13:14:14,538 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-01-11 13:14:14,538 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-01-11 13:14:14,539 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-01-11 13:14:14,539 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:14:14,539 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:14:14,945 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:14:14,945 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-01-11 13:14:15,288 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-01-11 13:14:15,288 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-01-11 13:14:15,625 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:14:15,652 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-01-11 13:14:15,652 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-01-11 13:14:15,992 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-12-thread-1] Auditing in database.
+2022-01-11 13:14:17,223 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-01-11 13:14:17,224 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 13:14:17,224 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 13:14:17,448 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside DDOS filtering
+2022-01-11 13:14:17,448 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-5] Inside get error codes.
+2022-01-11 13:14:17,762 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] inside request param validation
+2022-01-11 13:14:17,762 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] In Timestamp validation
+2022-01-11 13:14:17,763 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] The timestamp difference is--
+2022-01-11 13:14:17,763 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:14:17,763 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:14:18,080 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-01-11 13:14:18,080 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside getAuthKeyFromDB..
+2022-01-11 13:14:18,374 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Whitelisted
+2022-01-11 13:14:18,374 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-5] Inside is whiteListed
+2022-01-11 13:14:18,740 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-5] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-01-11 13:14:18,776 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] In post handle
+2022-01-11 13:14:18,776 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-5] Auditing records in AuditDataProcessor.
+2022-01-11 13:14:19,150 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-13-thread-1] Auditing in database.
+2022-01-11 14:51:54,423 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(40)-127.0.0.1] Application shutdown requested.
+2022-01-11 14:51:54,802 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(40)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 22:28:02,259 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 732 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 22:28:02,262 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 22:28:07,018 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8736cfb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 22:28:07,049 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 22:28:07,259 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 22:28:07,270 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:07,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 22:28:07,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 22:28:07,383 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 22:28:07,384 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5068 ms
+2022-01-11 22:28:07,702 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 22:28:07,812 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 22:28:08,147 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 22:28:08,169 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:08,179 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-01-11 22:28:08,181 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-11 22:28:08,184 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:08,184 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-01-11 22:28:08,254 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:08,254 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:08,271 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-11 22:28:08,284 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2022-01-11 22:28:26,567 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 15544 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by Trupti Kandekar in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-01-11 22:28:26,570 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-11 22:28:31,192 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f4e8faee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-11 22:28:31,223 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-01-11 22:28:31,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-01-11 22:28:31,444 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:31,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-11 22:28:31,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-01-11 22:28:31,552 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-11 22:28:31,552 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4922 ms
+2022-01-11 22:28:31,925 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-01-11 22:28:32,033 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-11 22:28:32,368 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-11 22:28:32,391 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-01-11 22:28:32,411 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-01-11 22:28:32,425 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.205 seconds (JVM running for 7.533)
+2022-01-11 22:32:08,785 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9999-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 22:32:08,787 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-01-11 22:32:08,790 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Completed initialization in 3 ms
+2022-01-11 22:32:08,824 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-01-11 22:32:08,834 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-01-11 22:32:08,839 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-01-11 22:32:51,420 ERROR com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Error while fetching encryption status null
+2022-01-11 22:32:51,421 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-01-11 22:32:51,422 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-01-11 22:33:33,551 ERROR com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Error while fetching error codes null
+2022-01-11 22:33:33,553 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Invalid ESB service code sent by request id AMR-INT223451232 
+2022-01-11 22:33:33,557 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-01-11 22:34:15,644 ERROR com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Exception while Auditing records null
+2022-01-11 22:53:26,000 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(34)-127.0.0.1] Application shutdown requested.
+2022-01-11 22:53:26,359 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(34)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'

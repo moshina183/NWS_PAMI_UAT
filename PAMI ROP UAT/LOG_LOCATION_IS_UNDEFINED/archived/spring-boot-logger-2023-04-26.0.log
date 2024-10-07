@@ -1,0 +1,834 @@
+2023-04-26 11:22:11,683 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VIN-WTC-TP-070 with PID 8956 (E:\PAW-diamservice\diamservices\target\classes started by admin in E:\PAW-diamservice\diamservices)
+2023-04-26 11:22:11,683 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2023-04-26 11:22:11,699 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-04-26 11:22:20,189 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b65d4d62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-26 11:22:20,231 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-26 11:22:20,568 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2023-04-26 11:22:20,582 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2023-04-26 11:22:20,583 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-04-26 11:22:20,583 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-04-26 11:22:20,838 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:22:20,839 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 9043 ms
+2023-04-26 11:22:21,551 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-04-26 11:22:21,728 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-26 11:22:22,446 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2023-04-26 11:22:22,483 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-04-26 11:22:22,514 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2023-04-26 11:22:22,618 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2023-04-26 11:22:22,642 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 11.537 seconds (JVM running for 13.506)
+2023-04-26 11:22:25,253 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 11:22:25,254 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2023-04-26 11:22:25,256 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2023-04-26 11:22:37,497 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2023-04-26 11:22:37,504 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232d and esbURL is /api/v1/getpersoninformation
+2023-04-26 11:22:37,506 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2023-04-26 11:22:38,569 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2023-04-26 11:22:38,570 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2023-04-26 11:22:38,790 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2023-04-26 11:22:38,791 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2023-04-26 11:22:38,794 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2023-04-26 11:22:38,795 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2023-04-26 11:22:38,795 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2023-04-26 11:22:38,960 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2023-04-26 11:22:38,961 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2023-04-26 11:22:39,096 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2023-04-26 11:22:39,097 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2023-04-26 11:22:39,401 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] personrequestobject :: 
+2023-04-26 11:23:05,024 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:23:05,051 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getData target for Insertion in Phase 1
+2023-04-26 11:23:05,292 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,292 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,442 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:05,447 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:05,495 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:05,496 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:05,505 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,642 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:05,645 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:05,667 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,668 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,669 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,670 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,781 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:05,782 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:05,792 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:05,793 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:05,795 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,902 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:05,909 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:05,930 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:05,931 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:05,934 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:05,935 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,098 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:06,102 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:06,112 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:06,113 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:06,126 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,271 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:06,271 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:06,276 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:06,277 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:06,281 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,284 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,286 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,451 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:06,452 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:06,458 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:06,458 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:06,461 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,461 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,461 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,461 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,595 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:06,596 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:06,601 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:06,602 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:06,613 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,613 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,614 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,614 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,614 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,759 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:06,762 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:06,775 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:06,775 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:06,777 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:23:06,920 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:23:06,923 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:23:06,930 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:23:06,931 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:23:06,939 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered in phase 2
+2023-04-26 11:23:06,941 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:23:22,756 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VIN-WTC-TP-070 with PID 10384 (E:\PAW-diamservice\diamservices\target\classes started by admin in E:\PAW-diamservice\diamservices)
+2023-04-26 11:23:22,756 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2023-04-26 11:23:22,760 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-04-26 11:23:29,319 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4e49b38c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-26 11:23:29,359 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-26 11:23:29,642 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2023-04-26 11:23:29,657 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2023-04-26 11:23:29,658 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-04-26 11:23:29,659 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-04-26 11:23:29,876 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:23:29,876 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7048 ms
+2023-04-26 11:23:30,493 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-04-26 11:23:30,759 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-26 11:23:31,327 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2023-04-26 11:23:31,364 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-04-26 11:23:31,395 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2023-04-26 11:23:31,452 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2023-04-26 11:23:31,475 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 9.16 seconds (JVM running for 10.927)
+2023-04-26 11:23:31,758 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 11:23:31,759 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2023-04-26 11:23:31,761 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2023-04-26 11:23:35,839 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2023-04-26 11:23:35,851 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232d and esbURL is /api/v1/getpersoninformation
+2023-04-26 11:23:35,854 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2023-04-26 11:23:36,859 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2023-04-26 11:23:36,860 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2023-04-26 11:23:36,993 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2023-04-26 11:23:36,994 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2023-04-26 11:23:36,999 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2023-04-26 11:23:37,000 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2023-04-26 11:23:37,000 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2023-04-26 11:23:37,158 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2023-04-26 11:23:37,159 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2023-04-26 11:23:37,326 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2023-04-26 11:23:37,326 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2023-04-26 11:23:37,510 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] personrequestobject :: 
+2023-04-26 11:24:05,046 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:05,069 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getData target for Insertion in Phase 1
+2023-04-26 11:24:05,192 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,194 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,332 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:05,336 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:05,347 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:05,349 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:05,352 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,472 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:05,478 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:05,494 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,495 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,495 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,495 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,668 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:05,669 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:05,675 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:05,676 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:05,681 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,854 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:05,857 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:05,872 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:05,873 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:05,883 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:05,884 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,052 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:06,056 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:06,070 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:06,071 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:06,078 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,252 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:06,255 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:06,268 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:06,269 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:06,273 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,274 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,275 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,431 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:06,436 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:06,456 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:06,457 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:06,463 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,464 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,464 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,465 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,582 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:06,585 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:06,599 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:06,600 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:06,606 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,606 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,607 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,607 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,608 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,797 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:06,801 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:06,812 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:06,812 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:06,815 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2023-04-26 11:24:06,954 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2023-04-26 11:24:06,955 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2023-04-26 11:24:06,964 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2023-04-26 11:24:06,964 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT,MM_OWNER_CODE) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2023-04-26 11:24:06,966 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered in phase 2
+2023-04-26 11:24:06,968 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:07,316 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2023-04-26 11:24:07,330 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:07,357 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:07,413 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:07,578 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:07,631 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:07,632 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:07,638 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:07,849 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2023-04-26 11:24:07,855 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:07,877 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:07,915 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:08,055 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:08,084 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:08,084 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:08,089 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:08,233 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-4-thread-1] Auditing in database.
+2023-04-26 11:24:08,238 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:08,239 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:08,272 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:08,416 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:08,438 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:08,438 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:08,449 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:08,648 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-5-thread-1] Auditing in database.
+2023-04-26 11:24:08,652 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:08,667 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:08,694 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:08,816 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:08,839 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:08,839 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:08,843 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:08,984 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-6-thread-1] Auditing in database.
+2023-04-26 11:24:08,986 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:08,997 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:09,024 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:09,148 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:09,164 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:09,165 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:09,168 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:09,289 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-7-thread-1] Auditing in database.
+2023-04-26 11:24:09,292 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:09,295 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:09,314 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:09,416 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:09,432 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:09,433 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:09,436 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:09,553 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-8-thread-1] Auditing in database.
+2023-04-26 11:24:09,555 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:09,568 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:09,612 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:09,711 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:09,725 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:09,725 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:09,729 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:09,844 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-9-thread-1] Auditing in database.
+2023-04-26 11:24:09,847 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:09,853 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:09,868 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:09,983 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:10,005 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:10,005 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:10,019 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:10,130 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-10-thread-1] Auditing in database.
+2023-04-26 11:24:10,132 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:10,138 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:10,154 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:10,256 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:10,276 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:10,276 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:10,279 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:10,388 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-11-thread-1] Auditing in database.
+2023-04-26 11:24:10,389 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:10,390 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:10,402 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:10,496 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:10,506 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:10,506 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:10,508 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:10,627 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-12-thread-1] Auditing in database.
+2023-04-26 11:24:10,629 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:10,638 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:10,648 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:10,751 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:10,765 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:10,765 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:10,767 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:10,894 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-13-thread-1] Auditing in database.
+2023-04-26 11:24:10,896 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:10,902 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:10,911 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:11,020 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:11,030 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:11,030 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:11,033 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:11,154 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-14-thread-1] Auditing in database.
+2023-04-26 11:24:11,157 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:11,165 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:11,173 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:11,272 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:11,280 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:11,280 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:11,284 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:11,384 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-15-thread-1] Auditing in database.
+2023-04-26 11:24:11,386 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:11,386 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:11,397 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:11,493 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:11,502 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:11,502 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:11,504 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:11,617 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-16-thread-1] Auditing in database.
+2023-04-26 11:24:11,620 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:11,630 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:11,636 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:11,731 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:11,740 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:11,741 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:11,744 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:11,848 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-17-thread-1] Auditing in database.
+2023-04-26 11:24:11,851 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:11,856 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:11,869 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:11,972 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:11,982 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:11,982 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:11,984 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:12,088 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-18-thread-1] Auditing in database.
+2023-04-26 11:24:12,094 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:12,100 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:12,121 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:12,213 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:12,222 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:12,222 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:12,224 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:12,339 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-19-thread-1] Auditing in database.
+2023-04-26 11:24:12,341 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:12,343 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:12,356 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:12,492 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:12,503 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:12,503 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:12,506 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:12,679 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-20-thread-1] Auditing in database.
+2023-04-26 11:24:12,682 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:12,696 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:12,716 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:12,881 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:12,891 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:12,891 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:12,894 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:13,044 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-21-thread-1] Auditing in database.
+2023-04-26 11:24:13,049 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:13,055 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:13,068 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:13,162 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:13,174 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:13,174 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:13,187 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:13,294 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-22-thread-1] Auditing in database.
+2023-04-26 11:24:13,296 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:13,305 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:13,317 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:13,463 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:13,473 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:13,474 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:13,480 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:13,621 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-23-thread-1] Auditing in database.
+2023-04-26 11:24:13,623 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:13,623 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:13,635 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:13,782 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:13,796 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:13,797 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:13,800 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:13,953 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-24-thread-1] Auditing in database.
+2023-04-26 11:24:13,960 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:13,965 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:13,983 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:14,085 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:14,095 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:14,095 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:14,098 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:14,261 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-25-thread-1] Auditing in database.
+2023-04-26 11:24:14,264 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:14,270 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:14,312 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:14,416 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:14,426 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:14,426 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:14,428 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:14,528 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-26-thread-1] Auditing in database.
+2023-04-26 11:24:14,530 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:14,537 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:14,556 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:14,654 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:14,664 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:14,664 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:14,666 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:14,766 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-27-thread-1] Auditing in database.
+2023-04-26 11:24:14,774 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:14,774 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:14,788 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:14,888 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:14,897 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:14,897 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:14,899 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:15,015 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-28-thread-1] Auditing in database.
+2023-04-26 11:24:15,020 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:15,029 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:15,040 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:15,145 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:15,155 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:15,155 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:15,157 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:15,256 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-29-thread-1] Auditing in database.
+2023-04-26 11:24:15,260 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:15,265 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:15,272 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:15,371 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:15,390 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:15,391 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:15,394 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:15,500 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-30-thread-1] Auditing in database.
+2023-04-26 11:24:15,502 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:15,507 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:15,520 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:15,617 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:15,626 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:15,627 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:15,629 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:15,726 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-31-thread-1] Auditing in database.
+2023-04-26 11:24:15,728 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:15,728 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:15,737 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:15,832 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:15,840 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:15,840 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:15,843 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:15,951 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-32-thread-1] Auditing in database.
+2023-04-26 11:24:15,953 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:15,959 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:15,971 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:16,068 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:16,078 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:16,079 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:16,082 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:16,186 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-33-thread-1] Auditing in database.
+2023-04-26 11:24:16,188 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:16,197 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:16,205 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:16,300 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:16,310 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:16,310 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:16,312 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:16,410 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-34-thread-1] Auditing in database.
+2023-04-26 11:24:16,413 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:16,418 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:16,442 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:16,543 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:16,552 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:16,552 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:16,554 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:16,656 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-35-thread-1] Auditing in database.
+2023-04-26 11:24:16,659 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:16,660 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:16,674 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:16,773 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:16,784 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:16,784 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:16,787 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:16,893 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-36-thread-1] Auditing in database.
+2023-04-26 11:24:16,943 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:16,949 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2023-04-26 11:24:16,966 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2023-04-26 11:24:17,055 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:17,064 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:17,064 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,OWNER_ALTERNATE_CONTACT_NO=?,MEDC_ID_CARD=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:17,067 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:17,167 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-37-thread-1] Auditing in database.
+2023-04-26 11:24:17,169 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:17,176 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2023-04-26 11:24:17,197 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2023-04-26 11:24:17,304 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:17,313 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:17,313 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=?,ALLOWED_PERCENTAGE=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:17,315 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:17,418 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-38-thread-1] Auditing in database.
+2023-04-26 11:24:17,420 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:17,428 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2023-04-26 11:24:17,443 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2023-04-26 11:24:17,571 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:17,584 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:17,584 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:17,586 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:17,715 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-39-thread-1] Auditing in database.
+2023-04-26 11:24:17,719 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getRecordGIS target
+2023-04-26 11:24:17,720 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:17,745 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] ===============updating requests table from GISRecord========================6547784r567890r16326473r9876543
+2023-04-26 11:24:17,852 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:17,865 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:17,865 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET DMA_NAME=?,NEAREST_WATER_CONNECTION=?,WATER_NETWORK=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2023-04-26 11:24:17,871 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:18,056 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-40-thread-1] Auditing in database.
+2023-04-26 11:24:18,063 INFO com.vinsys.diam.filters.GetDetails [scheduling-1] Inside getAggragation status.. for service code schedular
+2023-04-26 11:24:18,235 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2023-04-26 11:24:18,426 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-41-thread-1] Auditing in database.
+2023-04-26 11:24:18,661 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:18,667 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:18,852 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:18,876 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:18,876 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:18,879 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:18,885 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,071 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,093 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,094 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,096 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,107 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,229 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,241 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,241 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,251 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,256 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,403 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,412 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,412 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,414 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,418 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,522 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,530 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,530 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,532 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,538 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,660 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,676 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,676 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,680 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,685 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,797 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,808 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,808 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,811 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,816 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:19,924 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:19,933 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:19,934 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:19,936 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:19,943 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,055 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,064 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:20,064 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,066 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,070 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,171 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,173 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,173 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,176 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,181 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,288 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,290 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,290 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,292 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,297 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,405 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,407 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,407 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,410 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,416 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,523 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,527 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,527 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,529 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,533 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,636 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,638 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,638 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,640 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,647 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,754 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,756 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,756 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,759 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,766 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,886 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,888 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,888 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:20,890 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:20,896 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:20,996 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:20,998 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:20,998 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,000 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,005 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,111 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,114 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,114 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,116 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,121 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,240 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,244 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,244 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,246 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,251 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,357 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,360 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,360 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,362 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,370 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,494 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,497 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,497 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,499 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,504 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,604 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,606 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,606 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,609 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,613 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,714 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,716 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,716 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,719 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,723 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,826 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,829 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,829 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,831 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,838 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:21,948 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:21,950 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:21,950 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:21,952 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:21,961 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,081 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,091 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,092 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,094 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,098 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,207 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,216 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,216 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,218 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,222 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,331 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,341 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,341 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,344 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,348 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,449 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,458 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,459 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,461 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,465 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,576 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,586 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,586 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,588 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,595 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,712 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,727 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,728 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,730 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,737 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:22,881 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:22,895 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:22,896 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:22,900 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:22,919 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:23,093 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:23,110 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:23,111 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:23,116 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:23,130 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:23,280 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:23,292 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:23,293 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:23,295 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:23,301 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:23,412 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:23,421 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:23,421 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:23,423 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:23,428 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:23,544 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:23,553 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:23,553 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:23,555 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:23,563 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:23,738 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:23,758 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:23,758 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:23,761 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:23,765 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:23,948 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:23,963 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:23,964 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:23,970 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:23,994 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:24,188 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:24,198 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:24,198 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:24,213 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:24,233 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:24,384 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:24,394 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:24,394 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:24,396 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:24,401 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:24,532 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:24,547 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:24,548 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:24,554 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:24,565 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:24,718 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:24,722 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:24,722 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:24,727 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:24,733 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:24,846 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:24,848 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:24,848 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:24,860 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:24,866 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:25,005 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:25,015 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:25,015 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:25,018 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:25,030 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:25,196 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:25,200 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:25,201 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:25,204 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:25,236 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:25,415 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:25,417 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:25,417 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:25,419 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:25,423 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:25,615 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:25,618 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:25,618 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:25,622 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:25,637 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:25,832 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:25,836 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:25,836 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:25,840 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:25,870 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:26,064 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:26,068 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:26,069 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:26,076 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:26,098 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:26,234 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:26,237 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:26,237 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:26,240 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:26,250 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:26,365 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:26,369 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:26,369 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:26,373 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:26,396 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:26,610 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:26,615 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:26,615 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:26,617 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:26,622 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:26,766 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:26,768 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:26,769 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:26,771 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:26,784 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:26,918 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:26,927 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:26,928 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:26,932 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:26,942 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:27,097 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:27,099 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:27,100 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:27,103 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:27,119 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:27,270 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:27,279 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:27,280 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:27,285 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:27,303 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:27,451 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:27,455 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2023-04-26 11:24:27,455 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:27,466 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:27,498 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:27,672 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:27,684 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:27,685 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:27,687 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:27,694 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:27,865 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:27,881 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:27,881 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:27,888 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:27,895 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:28,042 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:28,050 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:28,051 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:28,053 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:28,061 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:28,217 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:28,229 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:28,229 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:28,234 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:28,251 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:28,397 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:28,417 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:28,418 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:28,422 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:28,448 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:28,604 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:28,617 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:28,617 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:28,622 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:28,654 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular
+2023-04-26 11:24:28,859 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2023-04-26 11:24:28,869 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 39 
+2023-04-26 11:24:28,870 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET OWNER_EN_NAME=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=?,MEDC_ID_CARD=? WHERE BUILDING_PERMIT_NUMBER=?
+2023-04-26 11:24:28,875 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2023-04-26 11:24:28,880 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target after complete execution of schedular

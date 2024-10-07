@@ -1,0 +1,626 @@
+2022-06-30 11:03:22,573 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2022-06-30 11:03:22,580 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 5820 (D:\PAW\diam\diamservices\target\classes started by admin in D:\PAW\diam\diamservices)
+2022-06-30 11:03:22,582 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-06-30 11:03:33,326 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e8ac2861] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30 11:03:33,405 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-06-30 11:03:33,827 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-06-30 11:03:33,852 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-06-30 11:03:33,853 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-30 11:03:33,854 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-06-30 11:03:34,177 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-30 11:03:34,177 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 11502 ms
+2022-06-30 11:03:35,154 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-06-30 11:03:35,455 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 11:03:36,557 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2022-06-30 11:03:36,612 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 11:03:36,669 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-06-30 11:03:36,701 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-06-30 11:03:36,742 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 14.739 seconds (JVM running for 17.312)
+2022-06-30 11:03:38,963 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:03:38,963 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:03:38,965 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-06-30 11:04:09,118 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-06-30 11:04:09,127 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-06-30 11:04:09,130 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2022-06-30 11:04:10,218 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-06-30 11:04:10,219 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-06-30 11:04:10,356 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-06-30 11:04:10,357 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-06-30 11:04:10,360 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-06-30 11:04:10,361 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-06-30 11:04:10,362 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-06-30 11:04:10,515 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-06-30 11:04:10,516 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-06-30 11:04:10,682 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-06-30 11:04:10,683 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-06-30 11:04:11,399 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [http-nio-9999-exec-1] Creating Service {urn:rop-gov-om:person}PersonInformation_Entities.External.ws.PersonInformation_WSSP_ASE_ITA from WSDL: file:/D:/PAW/diam/diamservices/src/main/resources/wsdl1/PersonUAT.wsdl
+2022-06-30 11:04:13,201 WARN org.apache.cxf.ws.policy.AssertionBuilderRegistryImpl [http-nio-9999-exec-1] No assertion builder for type {http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702}WssX509PkiPathV1Token10 registered.
+2022-06-30 11:04:13,241 WARN org.apache.cxf.common.logging.LogUtils [http-nio-9999-exec-1] Interceptor for {urn:rop-gov-om:person}PersonInformation_Entities.External.ws.PersonInformation_WSSP_ASE_ITA#{urn:rop-gov-om:person}PersonInformation has thrown exception, unwinding now
+org.apache.cxf.ws.policy.PolicyException: Reference to policy ROP X509 Authentication, Signature and Encryption could not be resolved.
+	at org.apache.cxf.ws.policy.attachment.AbstractPolicyProvider.checkResolved(AbstractPolicyProvider.java:93)
+	at org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider.resolveReference(Wsdl11AttachmentPolicyProvider.java:274)
+	at org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider.getElementPolicy(Wsdl11AttachmentPolicyProvider.java:220)
+	at org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider.getEffectivePolicy(Wsdl11AttachmentPolicyProvider.java:136)
+	at org.apache.cxf.ws.policy.PolicyEngineImpl.getAggregatedMessagePolicy(PolicyEngineImpl.java:500)
+	at org.apache.cxf.ws.policy.EffectivePolicyImpl.initialisePolicy(EffectivePolicyImpl.java:175)
+	at org.apache.cxf.ws.policy.EffectivePolicyImpl.initialise(EffectivePolicyImpl.java:95)
+	at org.apache.cxf.ws.policy.PolicyEngineImpl.getEffectiveClientRequestPolicy(PolicyEngineImpl.java:214)
+	at org.apache.cxf.ws.policy.PolicyOutInterceptor.handle(PolicyOutInterceptor.java:98)
+	at org.apache.cxf.ws.policy.AbstractPolicyInterceptor.handleMessage(AbstractPolicyInterceptor.java:44)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:528)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:439)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:354)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:312)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:140)
+	at com.sun.proxy.$Proxy141.personInformation(Unknown Source)
+	at com.vinsys.diam.controllers.PAWESBServices.getPersonInformation(PAWESBServices.java:796)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-30 11:04:13,309 ERROR com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Reference to policy ROP X509 Authentication, Signature and Encryption could not be resolved.
+2022-06-30 11:04:13,334 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-06-30 11:04:13,337 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-06-30 11:04:13,560 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-06-30 11:07:05,857 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-06-30 11:07:06,199 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(10)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
+2022-06-30 11:07:06,201 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(10)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30 12:02:19,801 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 1372 (D:\PAW\diam\diamservices\target\classes started by admin in D:\PAW\diam\diamservices)
+2022-06-30 12:02:19,802 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2022-06-30 12:02:19,807 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-06-30 12:02:26,540 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7a4613d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30 12:02:26,571 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-06-30 12:02:26,808 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-06-30 12:02:26,822 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-06-30 12:02:26,823 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-30 12:02:26,823 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-06-30 12:02:26,993 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-30 12:02:26,993 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7088 ms
+2022-06-30 12:02:27,480 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-06-30 12:02:27,631 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 12:02:28,142 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2022-06-30 12:02:28,174 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 12:02:28,199 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-06-30 12:02:28,220 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-06-30 12:02:28,241 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 9.221 seconds (JVM running for 10.593)
+2022-06-30 12:02:28,979 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 12:02:28,979 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-06-30 12:02:28,980 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-06-30 12:03:05,032 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:03:05,063 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getData target for Insertion in Phase 1
+2022-06-30 12:03:07,154 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] error while executing MMIntegration phase 1 target
+2022-06-30 12:03:07,155 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:03:07,916 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Auditing in database.
+2022-06-30 12:03:07,924 INFO com.vinsys.diam.filters.GetDetails [scheduling-1] Inside getAggragation status.. for service code schedular
+2022-06-30 12:03:08,170 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:03:08,369 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-3-thread-1] Auditing in database.
+2022-06-30 12:04:05,027 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:04:05,037 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getData target for Insertion in Phase 1
+2022-06-30 12:04:07,543 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] error while executing MMIntegration phase 1 target
+2022-06-30 12:04:07,543 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:04:08,171 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-4-thread-1] Auditing in database.
+2022-06-30 12:04:08,175 INFO com.vinsys.diam.filters.GetDetails [scheduling-1] Inside getAggragation status.. for service code schedular
+2022-06-30 12:04:08,445 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:04:09,248 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-5-thread-1] Auditing in database.
+2022-06-30 12:04:51,692 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
+2022-06-30 12:04:52,028 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(8)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
+2022-06-30 12:04:52,030 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(8)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30 12:04:58,274 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 17152 (D:\PAW\diam\diamservices\target\classes started by admin in D:\PAW\diam\diamservices)
+2022-06-30 12:04:58,274 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2022-06-30 12:04:58,279 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-06-30 12:05:03,905 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$866eadb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30 12:05:03,937 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-06-30 12:05:04,165 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-06-30 12:05:04,177 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-06-30 12:05:04,178 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-30 12:05:04,178 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-06-30 12:05:04,347 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-30 12:05:04,347 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6006 ms
+2022-06-30 12:05:04,821 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-06-30 12:05:04,958 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 12:05:05,424 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2022-06-30 12:05:05,454 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 12:05:05,487 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-06-30 12:05:05,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-06-30 12:05:05,528 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 7.629 seconds (JVM running for 9.078)
+2022-06-30 12:05:06,875 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 12:05:06,875 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-06-30 12:05:06,876 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-06-30 12:06:05,019 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:05,032 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling getData target for Insertion in Phase 1
+2022-06-30 12:06:05,197 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:05,197 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:05,701 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:05,773 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:05,836 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:05,836 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:05,842 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,005 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:06,005 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:06,125 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,126 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,126 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,126 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,287 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:06,288 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:06,342 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:06,343 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:06,347 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,489 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:06,489 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:06,539 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:06,539 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:06,544 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,545 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,722 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:06,723 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:06,776 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:06,776 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:06,781 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:06,946 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:06,946 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:06,999 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:06,999 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:07,004 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,005 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,005 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,171 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:07,171 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:07,220 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:07,220 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:07,225 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,225 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,226 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,226 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,383 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:07,384 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:07,432 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:07,432 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:07,436 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,437 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,437 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,437 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,437 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,595 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:07,595 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:07,643 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:07,643 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:07,647 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Inserting records into REQUESTS table from phase 1 
+2022-06-30 12:06:07,816 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Auditing into requests table
+2022-06-30 12:06:07,817 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Before Execute Update
+2022-06-30 12:06:07,865 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:07,865 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is INSERT INTO REQUESTS(REQUEST_ID,ACTUAL_PULL_DATE,CONSTRUCTION_PERMIT_NUMBER,OWNER_ID,OWNER_EN_NAME,OWNER_AR_NAME,PHONE,CR_NUMBER,WORK_START_ID,WORK_START_DATE_ISSUED,WILLAYATH,AREA,AREA_WAY,WAY_NAME,AREA_SIZE,BLOCK_NAME,PLOT_NUMBER,PLOT_TYPE,PREMISE_TYPE,SOCIAL_BENEFIT_NO,SOCIAL_BENEFIT_ISSUED_DATE,WATER_NETWORK,NO_OF_FAMILY_MEMBERS,OWNER_TYPE,NEAREST_WATER_CONNECTION,BUILDING_PERMIT_NUMBER,BUILDING_NUMBER,GOVERNORATE,OWNER_CLASS,PHONE_TYPE,PRIMARY_VAL,RECEIVE_BILL,REGION,RELATIONSHIP_TYPE,REQUEST_TYPE,SP_TYPE,SUB_AREA,TRNS_FRM_PREVIOUS_PRIVATE_NTK,WORK_COMPLETION_DATE_ISSUED,CS_REQTY,WORK_COMPLETION_ID,MM_SERV_TYPE,PARENT) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2022-06-30 12:06:07,889 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered in phase 2
+2022-06-30 12:06:07,890 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:08,158 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-06-30 12:06:08,164 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:08,178 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:08,201 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:08,568 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:08,585 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:08,585 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:08,592 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:08,784 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-06-30 12:06:08,791 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:08,798 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:08,807 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:08,997 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:09,009 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:09,009 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:09,014 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:09,194 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-4-thread-1] Auditing in database.
+2022-06-30 12:06:09,201 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:09,202 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:09,330 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-5-thread-1] Auditing in database.
+2022-06-30 12:06:09,336 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:09,342 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:09,357 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:09,530 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:09,536 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2022-06-30 12:06:09,537 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:09,544 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:09,736 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-6-thread-1] Auditing in database.
+2022-06-30 12:06:09,744 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:09,750 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:09,764 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:09,957 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:09,965 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 0 
+2022-06-30 12:06:09,966 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:09,971 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:10,148 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-7-thread-1] Auditing in database.
+2022-06-30 12:06:10,155 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:10,155 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:10,358 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-8-thread-1] Auditing in database.
+2022-06-30 12:06:10,362 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:10,367 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:10,378 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:10,554 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:10,563 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:10,563 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:10,571 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:10,745 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-9-thread-1] Auditing in database.
+2022-06-30 12:06:10,750 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:10,756 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:10,769 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:10,926 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:10,932 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:10,933 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:10,936 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:11,093 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-10-thread-1] Auditing in database.
+2022-06-30 12:06:11,097 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:11,103 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:11,109 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:11,274 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:11,284 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:11,284 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:11,289 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:11,443 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-11-thread-1] Auditing in database.
+2022-06-30 12:06:11,448 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:11,448 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:11,614 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-12-thread-1] Auditing in database.
+2022-06-30 12:06:11,617 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:11,622 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:11,639 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:11,874 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:11,882 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:11,883 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:11,888 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:12,061 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-13-thread-1] Auditing in database.
+2022-06-30 12:06:12,066 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:12,071 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:12,092 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:12,256 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:12,264 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:12,264 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:12,268 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:12,424 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-14-thread-1] Auditing in database.
+2022-06-30 12:06:12,428 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:12,434 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:12,451 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:12,618 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:12,626 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:12,626 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:12,632 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:12,748 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-15-thread-1] Auditing in database.
+2022-06-30 12:06:12,752 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:12,752 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:12,924 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-16-thread-1] Auditing in database.
+2022-06-30 12:06:12,929 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:12,934 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:12,952 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:13,548 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:13,679 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:13,679 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:13,683 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:13,944 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-17-thread-1] Auditing in database.
+2022-06-30 12:06:13,948 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:13,953 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:13,966 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:14,341 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:14,346 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:14,346 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:14,350 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:14,624 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-18-thread-1] Auditing in database.
+2022-06-30 12:06:14,631 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:14,645 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:14,670 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:15,028 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:15,035 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:15,035 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:15,039 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:15,292 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-19-thread-1] Auditing in database.
+2022-06-30 12:06:15,296 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:15,297 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:15,661 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-20-thread-1] Auditing in database.
+2022-06-30 12:06:15,667 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:15,683 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:15,702 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:16,069 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:16,076 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:16,077 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:16,081 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:16,492 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-21-thread-1] Auditing in database.
+2022-06-30 12:06:16,500 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:16,508 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:16,525 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:16,892 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:16,898 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:16,898 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:16,904 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:17,078 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-22-thread-1] Auditing in database.
+2022-06-30 12:06:17,082 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:17,091 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:17,103 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:17,278 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:17,287 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:17,287 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:17,293 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:17,485 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-23-thread-1] Auditing in database.
+2022-06-30 12:06:17,491 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:17,491 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:17,671 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-24-thread-1] Auditing in database.
+2022-06-30 12:06:17,677 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:17,683 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:17,690 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:17,866 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:17,874 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:17,874 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:17,884 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:18,089 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-25-thread-1] Auditing in database.
+2022-06-30 12:06:18,096 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:18,101 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:18,110 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:18,244 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:18,250 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:18,250 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:18,256 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:18,518 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-26-thread-1] Auditing in database.
+2022-06-30 12:06:18,526 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:18,542 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:18,551 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:18,694 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:18,700 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:18,700 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:18,706 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:18,851 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-27-thread-1] Auditing in database.
+2022-06-30 12:06:18,857 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:18,857 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:19,026 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-28-thread-1] Auditing in database.
+2022-06-30 12:06:19,030 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:19,035 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:19,052 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:19,220 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:19,229 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:19,230 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:19,233 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:19,411 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-29-thread-1] Auditing in database.
+2022-06-30 12:06:19,416 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:19,420 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:19,430 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:19,608 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:19,615 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:19,615 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:19,619 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:19,818 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-30-thread-1] Auditing in database.
+2022-06-30 12:06:19,822 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:19,827 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:19,836 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:19,995 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:20,001 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:20,001 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:20,005 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:20,173 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-31-thread-1] Auditing in database.
+2022-06-30 12:06:20,178 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:20,178 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:20,349 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-32-thread-1] Auditing in database.
+2022-06-30 12:06:20,354 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:20,358 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:20,368 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:20,514 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:20,520 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:20,521 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:20,525 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:20,708 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-33-thread-1] Auditing in database.
+2022-06-30 12:06:20,715 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:20,719 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:20,728 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:20,875 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:20,881 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:20,881 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:20,888 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:21,017 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-34-thread-1] Auditing in database.
+2022-06-30 12:06:21,023 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:21,029 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:21,040 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:21,163 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:21,169 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:21,169 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:21,175 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:21,355 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-35-thread-1] Auditing in database.
+2022-06-30 12:06:21,361 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:21,361 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:21,539 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-36-thread-1] Auditing in database.
+2022-06-30 12:06:21,546 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:21,552 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MEDC target
+2022-06-30 12:06:21,560 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Updating REQUESTS table from MEDC 
+2022-06-30 12:06:21,738 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:21,746 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:21,746 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET EMAIL_ID=?,OWNER_EN_NAME=?,WILLAYATH=?,COORDINATE_N1=?,COORDINATE_N2=?,COORDINATE_E1=?,COORDINATE_E2=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:21,754 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:21,929 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-37-thread-1] Auditing in database.
+2022-06-30 12:06:21,936 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:21,941 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MM-New Target 
+2022-06-30 12:06:21,950 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MM-New
+2022-06-30 12:06:22,141 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:22,149 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:22,149 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET CROOKIE_NUMBER=?,LAND_AREA=?,CERTIFIED_BUILDING_AREA=? WHERE OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:22,155 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:22,360 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-38-thread-1] Auditing in database.
+2022-06-30 12:06:22,368 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] Entered::PAWESBServices::getRestTemplate()
+2022-06-30 12:06:22,373 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] calling MOSD target
+2022-06-30 12:06:22,387 INFO com.vinsys.diam.controllers.PAWESBServices [scheduling-1] updating REQUESTS table from MOSD
+2022-06-30 12:06:22,564 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] updating requests table
+2022-06-30 12:06:22,570 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Execute Update Executed 1 
+2022-06-30 12:06:22,570 INFO com.vinsys.diam.processors.InsertionHelper [scheduling-1] Query is UPDATE REQUESTS SET NO_OF_FAMILY_MEMBERS=?,SOCIAL_BENEFIT_ISSUED_DATE=?,SOCIAL_BENEFIT_NO=? WHERE  OWNER_ID=? AND REQUEST_ID=?
+2022-06-30 12:06:22,575 INFO com.vinsys.diam.processors.AuditLogProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:22,701 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-39-thread-1] Auditing in database.
+2022-06-30 12:06:22,706 ERROR com.vinsys.diam.controllers.PAWESBServices [scheduling-1] =========================getting null coordinates=======================
+2022-06-30 12:06:22,706 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:22,896 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-40-thread-1] Auditing in database.
+2022-06-30 12:06:22,903 INFO com.vinsys.diam.filters.GetDetails [scheduling-1] Inside getAggragation status.. for service code schedular
+2022-06-30 12:06:23,118 INFO com.vinsys.diam.processors.ExceptionProcessor [scheduling-1] Auditing records in AuditDataProcessor.
+2022-06-30 12:06:23,317 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-41-thread-1] Auditing in database.
+2022-06-30 12:06:25,549 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(6)-127.0.0.1] Application shutdown requested.
+2022-06-30 12:06:25,863 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(6)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
+2022-06-30 12:06:25,866 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(6)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30 12:07:02,385 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2022-06-30 12:07:02,391 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on VINSYSLT0182 with PID 3876 (D:\PAW\diam\diamservices\target\classes started by admin in D:\PAW\diam\diamservices)
+2022-06-30 12:07:02,393 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-06-30 12:07:08,397 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$683fa85c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30 12:07:08,429 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-06-30 12:07:08,666 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-06-30 12:07:08,683 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-06-30 12:07:08,684 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-30 12:07:08,684 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-06-30 12:07:08,866 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-30 12:07:08,867 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6401 ms
+2022-06-30 12:07:09,427 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-06-30 12:07:09,570 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 12:07:10,083 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2022-06-30 12:07:10,114 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-06-30 12:07:10,143 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-06-30 12:07:10,165 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-06-30 12:07:10,184 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 8.31 seconds (JVM running for 10.041)
+2022-06-30 12:07:10,950 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 12:07:10,951 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-06-30 12:07:10,953 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2022-06-30 12:07:13,944 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-06-30 12:07:13,952 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getpersoninformation
+2022-06-30 12:07:13,957 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getpersoninformation
+2022-06-30 12:07:14,719 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-06-30 12:07:14,719 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-06-30 12:07:14,932 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-06-30 12:07:14,933 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-06-30 12:07:14,935 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-06-30 12:07:14,936 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-06-30 12:07:14,937 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-06-30 12:07:15,136 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-06-30 12:07:15,138 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-06-30 12:07:15,327 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-06-30 12:07:15,328 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-06-30 12:07:16,097 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [http-nio-9999-exec-2] Creating Service {urn:rop-gov-om:person}PersonInformation_Entities.External.ws.PersonInformation_WSSP_ASE_ITA from WSDL: file:/D:/PAW/diam/diamservices/src/main/resources/wsdl1/PersonUAT.wsdl
+2022-06-30 12:07:17,158 WARN org.apache.cxf.ws.policy.AssertionBuilderRegistryImpl [http-nio-9999-exec-2] No assertion builder for type {http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702}WssX509PkiPathV1Token10 registered.
+2022-06-30 12:07:17,189 WARN org.apache.cxf.common.logging.LogUtils [http-nio-9999-exec-2] Interceptor for {urn:rop-gov-om:person}PersonInformation_Entities.External.ws.PersonInformation_WSSP_ASE_ITA#{urn:rop-gov-om:person}PersonInformation has thrown exception, unwinding now
+org.apache.cxf.ws.policy.PolicyException: Reference to policy ROP X509 Authentication, Signature and Encryption could not be resolved.
+	at org.apache.cxf.ws.policy.attachment.AbstractPolicyProvider.checkResolved(AbstractPolicyProvider.java:93)
+	at org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider.resolveReference(Wsdl11AttachmentPolicyProvider.java:274)
+	at org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider.getElementPolicy(Wsdl11AttachmentPolicyProvider.java:220)
+	at org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider.getEffectivePolicy(Wsdl11AttachmentPolicyProvider.java:136)
+	at org.apache.cxf.ws.policy.PolicyEngineImpl.getAggregatedMessagePolicy(PolicyEngineImpl.java:500)
+	at org.apache.cxf.ws.policy.EffectivePolicyImpl.initialisePolicy(EffectivePolicyImpl.java:175)
+	at org.apache.cxf.ws.policy.EffectivePolicyImpl.initialise(EffectivePolicyImpl.java:95)
+	at org.apache.cxf.ws.policy.PolicyEngineImpl.getEffectiveClientRequestPolicy(PolicyEngineImpl.java:214)
+	at org.apache.cxf.ws.policy.PolicyOutInterceptor.handle(PolicyOutInterceptor.java:98)
+	at org.apache.cxf.ws.policy.AbstractPolicyInterceptor.handleMessage(AbstractPolicyInterceptor.java:44)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:528)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:439)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:354)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:312)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:140)
+	at com.sun.proxy.$Proxy142.personInformation(Unknown Source)
+	at com.vinsys.diam.controllers.PAWESBServices.getPersonInformation(PAWESBServices.java:797)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-30 12:07:17,227 ERROR com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Reference to policy ROP X509 Authentication, Signature and Encryption could not be resolved.
+2022-06-30 12:07:17,238 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-06-30 12:07:17,240 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-06-30 12:07:17,433 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-06-30 12:07:22,189 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-06-30 12:07:22,519 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
+2022-06-30 12:07:22,522 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'

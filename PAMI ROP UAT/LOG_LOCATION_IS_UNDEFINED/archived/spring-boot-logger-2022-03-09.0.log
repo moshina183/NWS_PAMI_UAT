@@ -1,0 +1,993 @@
+2022-03-09 10:00:30,304 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 17892 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 10:00:30,320 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 10:00:36,413 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c03f059] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 10:00:36,456 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 10:00:36,756 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 10:00:36,770 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:00:36,770 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 10:00:36,771 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 10:00:36,887 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 10:00:36,887 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6473 ms
+2022-03-09 10:00:37,265 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 10:00:37,387 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 10:00:37,796 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 10:00:37,816 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:00:37,867 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 10:00:37,880 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 8.304 seconds (JVM running for 10.138)
+2022-03-09 10:00:38,116 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 10:00:38,116 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 10:00:38,118 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 10:00:53,753 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 10:00:53,757 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 10:00:53,761 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Invalid URL sent by requestId AMR-INT223451232
+2022-03-09 10:02:28,866 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Inside prehandle
+2022-03-09 10:02:28,866 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 10:02:28,867 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-5] Invalid URL sent by requestId AMR-INT223451232
+2022-03-09 10:03:50,544 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 19676 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 10:03:50,548 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 10:03:54,744 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$aa04e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 10:03:54,776 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 10:03:55,007 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 10:03:55,017 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:03:55,018 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 10:03:55,018 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 10:03:55,125 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 10:03:55,126 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4529 ms
+2022-03-09 10:03:55,450 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 10:03:55,560 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 10:03:55,884 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 10:03:55,905 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:03:55,935 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-03-09 10:03:55,936 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 10:03:55,942 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:03:55,942 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-03-09 10:03:56,035 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:03:56,036 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:03:56,051 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-09 10:03:56,071 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2022-03-09 10:14:07,422 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(27)-127.0.0.1] Application shutdown requested.
+2022-03-09 10:14:07,583 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(27)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 10:14:34,233 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 592 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 10:14:34,238 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 10:14:38,635 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9c411ad3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 10:14:38,671 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 10:14:38,892 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 10:14:38,905 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:14:38,906 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 10:14:38,906 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 10:14:39,024 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 10:14:39,024 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4732 ms
+2022-03-09 10:14:39,387 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 10:14:39,497 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 10:14:39,853 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 10:14:39,886 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 10:14:39,929 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 10:14:39,943 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.118 seconds (JVM running for 7.264)
+2022-03-09 10:14:41,729 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 10:14:41,730 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 10:14:41,733 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 3 ms
+2022-03-09 10:16:12,189 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 10:16:12,199 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 10:16:12,206 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 10:16:13,723 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 10:16:13,724 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 10:16:14,033 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Invalid ESB service code sent by request id AMR-INT223451232 
+2022-03-09 10:16:14,036 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 10:16:14,359 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 10:16:46,700 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-03-09 10:16:46,701 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 10:16:46,702 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getdata
+2022-03-09 10:16:46,991 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-03-09 10:16:46,992 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-03-09 10:16:47,292 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Invalid ESB service code sent by request id AMR-INT223451232 
+2022-03-09 10:16:47,293 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-03-09 10:16:47,573 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-3-thread-1] Auditing in database.
+2022-03-09 11:15:18,356 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(42)-127.0.0.1] Application shutdown requested.
+2022-03-09 11:15:18,407 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(42)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 12:55:18,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 16280 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 12:55:18,936 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 12:55:19,243 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.vinsys.diam.esb.DemoApplication]; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'PAWESBCONFIG' in value "file:${PAWESBCONFIG}"
+2022-03-09 12:55:19,390 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.vinsys.diam.esb.DemoApplication]; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'PAWESBCONFIG' in value "file:${PAWESBCONFIG}"
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.vinsys.diam.esb.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'PAWESBCONFIG' in value "file:${PAWESBCONFIG}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractEnvironment.resolveRequiredPlaceholders(AbstractEnvironment.java:624)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:280)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 14 common frames omitted
+2022-03-09 12:58:08,046 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 1400 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 12:58:08,050 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 12:58:12,756 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$82df12db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 12:58:12,790 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 12:58:13,020 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 12:58:13,033 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 12:58:13,034 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 12:58:13,034 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 12:58:13,143 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 12:58:13,143 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5015 ms
+2022-03-09 12:58:13,505 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 12:58:13,625 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 12:58:13,953 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 12:58:14,000 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 12:58:14,054 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 12:58:14,074 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.428 seconds (JVM running for 7.757)
+2022-03-09 12:58:14,823 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 12:58:14,823 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 12:58:14,824 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 12:59:24,993 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 12:59:24,999 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 12:59:25,005 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 12:59:26,211 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 12:59:26,213 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 12:59:26,676 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 12:59:26,676 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 12:59:26,678 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 12:59:26,679 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 12:59:26,680 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 12:59:27,060 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 12:59:27,061 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 12:59:27,362 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-03-09 12:59:27,363 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-03-09 12:59:27,725 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 12:59:28,342 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-03-09 12:59:28,344 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 12:59:28,793 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 12:59:51,345 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-03-09 12:59:51,346 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 12:59:51,346 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getdata
+2022-03-09 12:59:51,690 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-03-09 12:59:51,691 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-03-09 12:59:52,042 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-03-09 12:59:52,043 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-03-09 12:59:52,044 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-03-09 12:59:52,044 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 12:59:52,045 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 12:59:52,371 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 12:59:52,371 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 12:59:52,651 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-03-09 12:59:52,652 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-03-09 12:59:52,992 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 12:59:53,410 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-03-09 12:59:53,410 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-03-09 12:59:53,708 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-03-09 13:01:33,338 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 68 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:01:33,342 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:01:37,940 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$aa04e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:01:37,975 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:01:38,188 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:01:38,198 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:38,198 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:01:38,199 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:01:38,320 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:01:38,320 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4915 ms
+2022-03-09 13:01:38,666 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:01:38,790 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:01:39,175 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:01:39,201 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:39,233 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2022-03-09 13:01:39,234 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:01:39,238 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:39,238 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-03-09 13:01:39,332 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:39,333 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:39,348 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-09 13:01:39,362 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2022-03-09 13:01:44,397 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2022-03-09 13:01:44,437 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(13)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:01:52,277 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 8292 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:01:52,283 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:01:56,959 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7b1c04ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:01:56,993 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:01:57,278 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:01:57,294 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:57,295 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:01:57,295 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:01:57,457 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:01:57,457 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5113 ms
+2022-03-09 13:01:57,845 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:01:57,952 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:01:58,279 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:01:58,303 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:01:58,355 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 13:01:58,369 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.437 seconds (JVM running for 7.529)
+2022-03-09 13:01:59,827 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 13:01:59,829 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 13:01:59,831 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 13:02:18,174 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 13:02:18,183 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:02:18,188 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 13:02:19,310 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 13:02:19,311 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 13:02:19,649 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 13:02:19,650 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 13:02:19,652 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 13:02:19,652 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:02:19,652 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 13:02:19,961 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:02:19,962 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 13:02:20,262 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 13:02:20,263 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 13:02:20,581 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:02:20,726 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 13:02:20,727 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 13:02:20,987 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 13:03:44,117 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2022-03-09 13:03:44,158 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(12)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:03:51,891 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 10876 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:03:51,895 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:03:57,339 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$76e00bb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:03:57,372 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:03:57,588 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:03:57,599 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:03:57,599 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:03:57,600 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:03:57,707 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:03:57,707 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5702 ms
+2022-03-09 13:03:58,062 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:03:58,184 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:03:58,646 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:03:58,675 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:03:58,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 13:03:58,740 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 7.457 seconds (JVM running for 9.068)
+2022-03-09 13:03:59,158 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 13:03:59,158 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 13:03:59,160 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 13:04:06,953 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 13:04:06,960 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:04:06,964 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 13:04:08,410 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 13:04:08,411 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 13:04:08,789 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 13:04:08,789 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 13:04:08,790 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 13:04:08,791 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Invalid timestamp
+2022-03-09 13:04:08,792 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 13:04:09,068 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 13:04:22,163 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-03-09 13:04:22,164 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:04:22,165 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getdata
+2022-03-09 13:04:22,541 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-03-09 13:04:22,541 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-03-09 13:04:22,949 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-03-09 13:04:22,951 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-03-09 13:04:22,952 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-03-09 13:04:22,952 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:04:22,953 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 13:04:23,309 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:04:23,310 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 13:04:23,720 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-03-09 13:04:23,722 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-03-09 13:04:24,130 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:04:24,353 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-03-09 13:04:24,355 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-03-09 13:04:24,674 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-03-09 13:07:14,373 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2022-03-09 13:07:14,410 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(13)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:07:18,519 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 14884 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:07:18,522 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:07:26,245 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 6540 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:07:26,248 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:07:30,790 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$54a1de0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:07:30,828 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:07:31,196 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:07:31,223 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:07:31,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:07:31,226 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:07:31,480 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:07:31,481 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5180 ms
+2022-03-09 13:07:32,287 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:07:32,533 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:07:33,378 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:07:33,438 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:07:33,519 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 13:07:33,550 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 7.745 seconds (JVM running for 8.993)
+2022-03-09 13:07:33,678 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 13:07:33,679 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 13:07:33,682 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 13:07:40,251 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 13:07:40,257 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:07:40,260 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 13:07:41,029 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 13:07:41,030 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 13:07:41,287 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 13:07:41,289 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 13:07:41,292 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 13:07:41,292 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:07:41,292 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 13:07:41,499 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:07:41,500 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 13:07:41,728 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 13:07:41,729 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 13:07:41,965 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:07:42,047 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 13:07:42,049 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 13:07:42,261 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 13:08:57,629 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2022-03-09 13:08:57,665 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(9)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:09:02,956 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 19064 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:09:02,959 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:09:07,682 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$764f418e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:09:07,720 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:09:07,968 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:09:07,980 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:09:07,980 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:09:07,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:09:08,108 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:09:08,108 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5092 ms
+2022-03-09 13:09:08,500 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:09:08,645 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:09:09,027 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:09:09,049 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:09:09,095 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 13:09:09,108 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.488 seconds (JVM running for 7.535)
+2022-03-09 13:09:09,717 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 13:09:09,717 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 13:09:09,720 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 13:09:13,590 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 13:09:13,602 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:09:13,607 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 13:09:14,888 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 13:09:14,889 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 13:09:15,187 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 13:09:15,188 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 13:09:15,191 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 13:09:15,192 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Invalid timestamp
+2022-03-09 13:09:15,193 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 13:09:15,463 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 13:09:31,760 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-03-09 13:09:31,760 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:09:31,760 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getdata
+2022-03-09 13:09:32,047 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-03-09 13:09:32,048 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-03-09 13:09:32,318 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-03-09 13:09:32,318 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-03-09 13:09:32,319 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-03-09 13:09:32,320 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:09:32,320 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 13:09:32,578 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:09:32,580 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 13:09:32,849 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-03-09 13:09:32,850 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-03-09 13:09:33,152 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:09:33,673 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-03-09 13:09:33,676 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-03-09 13:09:33,900 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-03-09 13:10:57,289 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside prehandle
+2022-03-09 13:10:57,290 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:10:57,291 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside getEncryption status.. for service code getdata
+2022-03-09 13:10:57,556 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] Inside DDOS filtering
+2022-03-09 13:10:57,557 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-6] Inside get error codes.
+2022-03-09 13:10:57,866 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] inside request param validation
+2022-03-09 13:10:57,867 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] In Timestamp validation
+2022-03-09 13:10:57,868 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] The timestamp difference is--
+2022-03-09 13:10:57,868 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:10:57,868 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-03-09 13:10:58,178 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:10:58,179 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside getAuthKeyFromDB..
+2022-03-09 13:10:58,457 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Whitelisted
+2022-03-09 13:10:58,458 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-6] Inside is whiteListed
+2022-03-09 13:10:58,728 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-6] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:10:59,157 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-6] In post handle
+2022-03-09 13:10:59,158 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-6] Auditing records in AuditDataProcessor.
+2022-03-09 13:10:59,370 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-4-thread-1] Auditing in database.
+2022-03-09 13:14:55,300 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2022-03-09 13:14:55,345 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(15)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:15:09,852 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 9200 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:15:09,856 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:15:16,793 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$500c0f02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:15:16,851 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:15:17,277 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:15:17,294 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:15:17,296 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:15:17,296 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:15:17,490 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:15:17,490 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7545 ms
+2022-03-09 13:15:18,091 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:15:18,284 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:15:18,824 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:15:18,868 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:15:18,931 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 13:15:18,957 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 9.657 seconds (JVM running for 11.431)
+2022-03-09 13:15:21,348 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 13:15:21,350 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 13:15:21,352 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 13:15:24,499 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-03-09 13:15:24,510 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:15:24,514 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getdata
+2022-03-09 13:15:25,857 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-03-09 13:15:25,858 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-03-09 13:15:26,196 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-03-09 13:15:26,197 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-03-09 13:15:26,198 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-03-09 13:15:26,199 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Invalid timestamp
+2022-03-09 13:15:26,201 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-03-09 13:15:26,518 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 13:15:37,434 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 13:15:37,435 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:15:37,437 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 13:15:37,738 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 13:15:37,739 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 13:15:38,057 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 13:15:38,058 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 13:15:38,058 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 13:15:38,059 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:15:38,060 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 13:15:38,315 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:15:38,316 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 13:15:38,547 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-03-09 13:15:38,547 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-03-09 13:15:38,878 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:15:39,459 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-03-09 13:15:39,461 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 13:15:39,735 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-03-09 13:16:28,163 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside prehandle
+2022-03-09 13:16:28,164 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:16:28,165 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside getEncryption status.. for service code getdata
+2022-03-09 13:16:28,425 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] Inside DDOS filtering
+2022-03-09 13:16:28,428 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-4] Inside get error codes.
+2022-03-09 13:16:28,718 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] inside request param validation
+2022-03-09 13:16:28,720 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] In Timestamp validation
+2022-03-09 13:16:28,723 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] The timestamp difference is--
+2022-03-09 13:16:28,725 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:16:28,726 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-03-09 13:16:29,014 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:16:29,015 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside getAuthKeyFromDB..
+2022-03-09 13:16:29,253 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Whitelisted
+2022-03-09 13:16:29,254 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-4] Inside is whiteListed
+2022-03-09 13:16:29,538 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-4] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:16:30,061 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-4] In post handle
+2022-03-09 13:16:30,062 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-4] Auditing records in AuditDataProcessor.
+2022-03-09 13:16:30,331 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-4-thread-1] Auditing in database.
+2022-03-09 13:22:17,839 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(18)-127.0.0.1] Application shutdown requested.
+2022-03-09 13:22:17,938 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(18)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:22:22,635 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 12296 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 13:22:22,638 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 13:22:27,210 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7bf74d9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 13:22:27,246 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 13:22:27,496 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 13:22:27,511 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:22:27,512 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 13:22:27,512 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 13:22:27,642 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 13:22:27,642 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4943 ms
+2022-03-09 13:22:28,058 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 13:22:28,176 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 13:22:28,550 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 13:22:28,574 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 13:22:28,619 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 13:22:28,632 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.434 seconds (JVM running for 7.664)
+2022-03-09 13:22:29,438 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 13:22:29,438 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 13:22:29,439 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 13:23:25,574 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 13:23:25,582 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:23:25,589 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 13:23:26,692 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 13:23:26,693 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 13:23:26,933 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 13:23:26,933 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 13:23:26,935 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 13:23:26,936 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Invalid timestamp
+2022-03-09 13:23:26,939 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 13:23:27,125 INFO com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 13:23:35,562 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside prehandle
+2022-03-09 13:23:35,563 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 13:23:35,563 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside getEncryption status.. for service code getdata
+2022-03-09 13:23:36,066 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] Inside DDOS filtering
+2022-03-09 13:23:36,067 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-3] Inside get error codes.
+2022-03-09 13:23:36,704 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] inside request param validation
+2022-03-09 13:23:36,705 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] In Timestamp validation
+2022-03-09 13:23:36,706 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] The timestamp difference is--
+2022-03-09 13:23:36,706 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:23:36,707 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 13:23:36,932 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 13:23:36,933 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside getAuthKeyFromDB..
+2022-03-09 13:23:37,152 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Whitelisted
+2022-03-09 13:23:37,153 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-3] Inside is whiteListed
+2022-03-09 13:23:37,407 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-3] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 13:23:37,610 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-3] In post handle
+2022-03-09 13:23:37,612 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-3] Auditing records in AuditDataProcessor.
+2022-03-09 13:23:37,955 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-3-thread-1] Auditing in database.
+2022-03-09 14:57:48,676 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(47)-127.0.0.1] Application shutdown requested.
+2022-03-09 14:57:48,715 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(47)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 14:57:54,528 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 16820 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 14:57:54,531 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 14:57:59,261 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$500c0f02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 14:57:59,301 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 14:57:59,566 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 14:57:59,578 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 14:57:59,578 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 14:57:59,579 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 14:57:59,721 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 14:57:59,721 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5126 ms
+2022-03-09 14:58:00,140 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 14:58:00,284 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 14:58:00,694 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 14:58:00,722 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 14:58:00,770 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 14:58:00,795 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.629 seconds (JVM running for 7.858)
+2022-03-09 14:58:01,096 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 14:58:01,097 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 14:58:01,098 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 14:59:07,346 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 14:59:07,354 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 14:59:07,356 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 14:59:07,984 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 14:59:07,984 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 14:59:08,238 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 14:59:08,238 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 14:59:08,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 14:59:08,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 14:59:08,240 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 14:59:08,514 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 14:59:08,515 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 14:59:08,683 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-03-09 14:59:08,684 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-03-09 14:59:08,876 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 14:59:09,086 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-03-09 14:59:09,088 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 14:59:09,446 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 14:59:46,063 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2022-03-09 14:59:46,093 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(12)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 14:59:51,068 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 17764 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 14:59:51,072 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 14:59:55,455 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8c07af3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 14:59:55,501 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 14:59:55,741 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 14:59:55,753 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 14:59:55,754 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 14:59:55,754 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 14:59:55,893 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 14:59:55,893 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4754 ms
+2022-03-09 14:59:56,288 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 14:59:56,405 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 14:59:56,772 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 14:59:56,805 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 14:59:56,849 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 14:59:56,863 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.14 seconds (JVM running for 7.355)
+2022-03-09 14:59:57,500 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 14:59:57,500 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 14:59:57,501 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 15:00:02,308 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 15:00:02,312 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 15:00:02,315 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 15:00:02,893 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 15:00:02,893 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 15:00:03,083 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 15:00:03,084 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 15:00:03,085 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 15:00:03,085 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:00:03,085 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:00:03,273 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:00:03,273 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:00:03,443 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 15:00:03,443 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 15:00:03,626 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 15:00:03,727 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 15:00:03,729 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 15:00:04,059 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 15:01:47,014 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2022-03-09 15:01:47,046 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(11)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:01:51,662 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 19044 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 15:01:51,666 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 15:01:55,997 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8b78f56c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 15:01:56,062 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 15:01:56,306 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 15:01:56,318 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:01:56,319 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 15:01:56,319 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 15:01:56,444 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 15:01:56,445 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4718 ms
+2022-03-09 15:01:56,804 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 15:01:56,910 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:01:57,300 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 15:01:57,323 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:01:57,369 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 15:01:57,384 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.043 seconds (JVM running for 7.281)
+2022-03-09 15:01:57,734 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 15:01:57,734 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 15:01:57,735 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 15:02:10,870 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 15:02:10,874 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 15:02:10,877 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 15:02:11,602 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 15:02:11,603 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 15:02:11,976 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 15:02:11,976 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 15:02:11,977 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 15:02:11,977 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:02:11,977 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:02:12,243 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:02:12,244 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:02:12,546 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 15:02:12,546 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 15:02:12,826 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 15:02:12,906 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 15:02:12,917 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 15:02:13,342 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 15:10:43,473 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2022-03-09 15:10:43,502 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(21)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:11:05,970 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 6460 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 15:11:05,976 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 15:11:11,902 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7bf74d9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 15:11:11,936 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 15:11:12,196 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 15:11:12,211 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:11:12,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 15:11:12,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 15:11:12,371 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 15:11:12,371 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5289 ms
+2022-03-09 15:11:12,962 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 15:11:13,079 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:11:13,412 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 15:11:13,459 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:11:13,511 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 15:11:13,526 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 8.096 seconds (JVM running for 9.112)
+2022-03-09 15:11:14,023 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 15:11:14,023 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 15:11:14,025 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 15:11:40,094 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 15:11:40,098 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 15:11:40,100 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 15:11:40,742 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 15:11:40,743 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 15:11:40,994 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 15:11:40,994 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 15:11:40,995 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 15:11:40,995 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:11:40,995 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:11:41,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:11:41,239 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:11:41,452 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 15:11:41,452 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 15:11:41,681 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 15:11:41,871 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 15:11:41,872 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 15:11:42,245 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 15:20:12,698 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2022-03-09 15:20:12,730 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(17)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:20:17,044 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 11420 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 15:20:17,048 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 15:20:21,971 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7bf74d9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 15:20:22,006 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 15:20:22,263 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 15:20:22,275 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:20:22,276 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 15:20:22,276 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 15:20:22,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 15:20:22,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5308 ms
+2022-03-09 15:20:22,797 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 15:20:22,915 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:20:23,301 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 15:20:23,326 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:20:23,374 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 15:20:23,389 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.75 seconds (JVM running for 7.789)
+2022-03-09 15:20:23,519 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 15:20:23,519 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 15:20:23,521 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 15:30:10,900 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 15:30:10,910 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 15:30:10,915 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 15:30:12,004 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 15:30:12,005 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 15:30:12,305 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 15:30:12,305 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 15:30:12,306 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 15:30:12,307 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:30:12,307 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:30:12,613 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:30:12,615 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:30:12,875 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 15:30:12,876 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 15:30:13,152 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 15:30:13,333 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 15:30:13,336 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 15:30:13,724 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 15:37:59,706 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(29)-127.0.0.1] Application shutdown requested.
+2022-03-09 15:37:59,753 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(29)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:38:04,462 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 11632 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 15:38:04,464 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 15:38:09,095 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ae603df1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 15:38:09,131 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 15:38:09,386 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 15:38:09,397 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:38:09,397 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 15:38:09,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 15:38:09,517 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 15:38:09,518 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4996 ms
+2022-03-09 15:38:09,910 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 15:38:10,023 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 15:38:10,489 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 15:38:10,519 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 15:38:10,583 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 15:38:10,610 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.507 seconds (JVM running for 7.735)
+2022-03-09 15:38:11,042 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 15:38:11,042 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 15:38:11,044 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 15:38:23,078 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 15:38:23,086 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 15:38:23,091 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 15:38:24,150 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 15:38:24,151 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 15:38:24,392 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 15:38:24,392 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 15:38:24,394 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 15:38:24,394 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:38:24,395 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:38:24,621 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 15:38:24,622 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 15:38:24,842 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 15:38:24,842 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 15:38:25,103 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 15:38:25,353 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 15:38:25,357 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 15:38:25,701 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 16:10:51,292 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(45)-127.0.0.1] Application shutdown requested.
+2022-03-09 16:10:51,327 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(45)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 16:10:55,943 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 13764 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 16:10:55,947 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 16:11:00,619 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ddb0c891] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 16:11:00,653 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 16:11:00,888 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 16:11:00,901 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 16:11:00,901 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 16:11:00,902 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 16:11:01,028 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 16:11:01,028 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5018 ms
+2022-03-09 16:11:01,391 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 16:11:01,503 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 16:11:01,843 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 16:11:01,873 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 16:11:01,918 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 16:11:01,931 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.356 seconds (JVM running for 7.481)
+2022-03-09 16:11:02,408 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 16:11:02,408 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 16:11:02,409 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 16:11:43,833 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 16:11:43,839 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 16:11:43,844 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 16:11:44,891 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 16:11:44,892 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 16:11:45,182 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 16:11:45,182 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 16:11:45,183 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 16:11:45,184 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 16:11:45,185 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 16:11:45,451 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 16:11:45,452 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 16:11:45,703 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-03-09 16:11:45,704 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-03-09 16:11:45,980 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 16:11:46,169 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-03-09 16:11:46,171 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 16:11:46,535 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 16:25:16,965 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(28)-127.0.0.1] Application shutdown requested.
+2022-03-09 16:25:16,996 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(28)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 16:25:21,817 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 5212 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 16:25:21,823 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 16:25:26,312 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7606f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 16:25:26,346 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 16:25:26,566 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 16:25:26,578 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 16:25:26,578 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 16:25:26,579 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 16:25:26,715 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 16:25:26,715 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4825 ms
+2022-03-09 16:25:27,409 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 16:25:27,663 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 16:25:28,466 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 16:25:28,548 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 16:25:28,664 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 16:25:28,676 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 7.201 seconds (JVM running for 8.271)
+2022-03-09 16:25:28,763 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 16:25:28,764 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 16:25:28,767 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 3 ms
+2022-03-09 16:25:44,054 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 16:25:44,057 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 16:25:44,059 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 16:25:44,688 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 16:25:44,689 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 16:25:44,996 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 16:25:44,997 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 16:25:44,998 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 16:25:44,999 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 16:25:45,001 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 16:25:45,257 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 16:25:45,258 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 16:25:45,537 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 16:25:45,537 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 16:25:45,855 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 16:25:46,013 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 16:25:46,014 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 16:25:46,389 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 17:36:49,607 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(34)-127.0.0.1] Application shutdown requested.
+2022-03-09 17:36:49,653 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(34)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 17:36:54,727 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 12880 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 17:36:54,731 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 17:36:59,092 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7606f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 17:36:59,129 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 17:36:59,390 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 17:36:59,401 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 17:36:59,402 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 17:36:59,402 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 17:36:59,512 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 17:36:59,512 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4712 ms
+2022-03-09 17:36:59,894 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 17:36:59,998 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 17:37:00,345 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 17:37:00,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 17:37:00,410 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 17:37:00,426 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.042 seconds (JVM running for 7.238)
+2022-03-09 17:37:00,554 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 17:37:00,555 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 17:37:00,556 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 17:37:15,077 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside prehandle
+2022-03-09 17:37:15,083 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 17:37:15,085 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside getEncryption status.. for service code getdata
+2022-03-09 17:37:16,136 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] Inside DDOS filtering
+2022-03-09 17:37:16,137 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-2] Inside get error codes.
+2022-03-09 17:37:16,394 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] inside request param validation
+2022-03-09 17:37:16,395 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] In Timestamp validation
+2022-03-09 17:37:16,397 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] The timestamp difference is--
+2022-03-09 17:37:16,397 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 17:37:16,398 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 17:37:16,614 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 17:37:16,615 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside getAuthKeyFromDB..
+2022-03-09 17:37:16,824 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Whitelisted
+2022-03-09 17:37:16,825 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-2] Inside is whiteListed
+2022-03-09 17:37:17,093 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-2] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 17:37:17,258 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-2] In post handle
+2022-03-09 17:37:17,260 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-2] Auditing records in AuditDataProcessor.
+2022-03-09 17:37:17,613 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 17:45:45,694 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2022-03-09 17:45:45,730 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(19)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 17:45:51,731 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 20052 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 17:45:51,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 17:45:56,178 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e1822d73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 17:45:56,222 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 17:45:56,421 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 17:45:56,431 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 17:45:56,431 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 17:45:56,432 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 17:45:56,536 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 17:45:56,537 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4753 ms
+2022-03-09 17:45:56,844 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 17:45:56,964 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 17:45:57,322 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 17:45:57,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 17:45:57,369 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 17:45:57,369 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 17:45:57,371 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2022-03-09 17:45:57,406 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 17:45:57,413 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.007 seconds (JVM running for 7.403)
+2022-03-09 17:46:10,868 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 17:46:10,875 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 17:46:10,879 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 17:46:12,022 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 17:46:12,023 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 17:46:12,341 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 17:46:12,342 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 17:46:12,344 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 17:46:12,344 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 17:46:12,345 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 17:46:12,642 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 17:46:12,643 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 17:46:12,904 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 17:46:12,905 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 17:46:13,147 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 17:46:13,300 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 17:46:13,302 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 17:46:13,692 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 18:09:08,055 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(37)-127.0.0.1] Application shutdown requested.
+2022-03-09 18:09:08,089 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(37)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 18:09:13,251 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 19872 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 18:09:13,254 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 18:09:18,192 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2c24f4b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 18:09:18,228 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 18:09:18,477 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 18:09:18,491 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 18:09:18,492 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 18:09:18,492 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 18:09:18,623 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 18:09:18,623 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5311 ms
+2022-03-09 18:09:19,013 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 18:09:19,138 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 18:09:19,521 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 18:09:19,545 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 18:09:19,592 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 18:09:19,606 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.701 seconds (JVM running for 7.731)
+2022-03-09 18:09:20,420 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 18:09:20,420 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 18:09:20,422 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 18:10:10,129 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2022-03-09 18:10:10,348 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(11)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-09 18:10:14,133 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 16.0.1 on VINSYSLT0182 with PID 13024 (D:\PAW\updated_PAW_ESB\paw-esb-services\target\classes started by admin in D:\PAW\updated_PAW_ESB\paw-esb-services)
+2022-03-09 18:10:14,137 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 18:10:18,976 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2c24f4b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 18:10:19,010 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 18:10:19,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2022-03-09 18:10:19,278 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2022-03-09 18:10:19,279 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-09 18:10:19,279 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-03-09 18:10:19,404 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-09 18:10:19,404 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5202 ms
+2022-03-09 18:10:19,753 INFO org.springframework.ws.soap.saaj.SaajSoapMessageFactory [main] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2022-03-09 18:10:19,857 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 18:10:20,189 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-09 18:10:20,215 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2022-03-09 18:10:20,273 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-09 18:10:20,289 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 6.521 seconds (JVM running for 7.582)
+2022-03-09 18:10:21,432 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 18:10:21,432 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-03-09 18:10:21,433 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-03-09 18:11:01,589 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2022-03-09 18:11:01,607 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id AMR-INT223451232 and esbURL is /api/v1/getdata
+2022-03-09 18:11:01,612 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getdata
+2022-03-09 18:11:02,153 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2022-03-09 18:11:02,153 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2022-03-09 18:11:02,333 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] inside request param validation
+2022-03-09 18:11:02,334 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] In Timestamp validation
+2022-03-09 18:11:02,334 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] The timestamp difference is--
+2022-03-09 18:11:02,335 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Validating auth key for consumerCode AMR with auth key bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 18:11:02,335 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 18:11:02,513 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Auth Key from DB for Consumer code AMR is  bbcf4432d0d34e029d8a5a170a0e730d
+2022-03-09 18:11:02,513 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside getAuthKeyFromDB..
+2022-03-09 18:11:02,684 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Whitelisted
+2022-03-09 18:11:02,684 INFO com.vinsys.diam.filters.AuthenticationFilter [http-nio-9999-exec-1] Inside is whiteListed
+2022-03-09 18:11:02,886 INFO com.vinsys.diam.controllers.PAWESBServices [http-nio-9999-exec-1] Entered::AbstractEmailDelivery::getRestTemplate()
+2022-03-09 18:11:02,977 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] In post handle
+2022-03-09 18:11:02,978 INFO com.vinsys.diam.processors.AuditLogProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2022-03-09 18:11:03,281 INFO com.vinsys.diam.processors.AuditLogProcessor [pool-2-thread-1] Auditing in database.
+2022-03-09 19:01:00,674 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(60)-127.0.0.1] Application shutdown requested.
+2022-03-09 19:01:00,703 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(60)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'

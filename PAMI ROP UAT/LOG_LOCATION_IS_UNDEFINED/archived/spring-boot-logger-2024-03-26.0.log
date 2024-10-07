@@ -1,0 +1,46 @@
+2024-03-26 09:53:03,336 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.10 on DIAM-ITAMIDWARE with PID 37496 (D:\Vinsys-owwsc\PAW-diamservice\diamservices\target\classes started by PAMIDMGMT in D:\Vinsys-owwsc\PAW-diamservice\diamservices)
+2024-03-26 09:53:03,348 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 09:53:03,397 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2024-03-26 09:53:20,532 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e3c5c952] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-26 09:53:20,783 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-03-26 09:53:21,747 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9999 (http)
+2024-03-26 09:53:21,842 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9999"]
+2024-03-26 09:53:21,845 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-26 09:53:21,846 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-03-26 09:53:22,306 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-26 09:53:22,307 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 18661 ms
+2024-03-26 09:53:25,408 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-26 09:53:25,443 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9999"]
+2024-03-26 09:53:25,533 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9999 (http) with context path ''
+2024-03-26 09:53:25,694 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 23.556 seconds (JVM running for 29.591)
+2024-03-26 09:54:45,144 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9999-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-26 09:54:45,144 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-26 09:54:45,147 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9999-exec-1] Completed initialization in 3 ms
+2024-03-26 09:54:45,175 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside prehandle
+2024-03-26 09:54:45,181 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] ############Request Processing started for request-id Test23456022357-PROD and esbURL is /api/v1/getpersoninformation
+2024-03-26 09:54:45,184 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside getEncryption status.. for service code getpersoninformation
+2024-03-26 09:55:27,954 ERROR com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Error while fetching encryption status null
+2024-03-26 09:55:27,963 INFO com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Inside DDOS filtering
+2024-03-26 09:55:27,964 INFO com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Inside get error codes.
+2024-03-26 09:56:09,979 ERROR com.vinsys.diam.filters.GetDetails [http-nio-9999-exec-1] Error while fetching error codes null
+2024-03-26 09:56:09,980 ERROR com.vinsys.diam.interceptor.BaseInterceptor [http-nio-9999-exec-1] Invalid ESB service code sent by request id Test23456022357-PROD 
+2024-03-26 09:56:09,981 INFO com.vinsys.diam.processors.ExceptionProcessor [http-nio-9999-exec-1] Auditing records in AuditDataProcessor.
+2024-03-26 09:56:52,031 ERROR com.vinsys.diam.processors.ExceptionProcessor [pool-2-thread-1] Exception while Auditing records null
+2024-03-26 10:38:22,916 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(47)-127.0.0.1] Application shutdown requested.
+2024-03-26 10:38:23,031 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] Pausing ProtocolHandler ["http-nio-9999"]
+2024-03-26 10:38:23,034 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] Stopping service [Tomcat]
+2024-03-26 10:38:23,044 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-26 10:38:23,050 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] The web application [ROOT] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ app//oracle.jdbc.internal.Monitor$WaitableMonitor.monitorWait(Monitor.java:259)
+ app//oracle.jdbc.internal.Monitor$WaitableMonitor.monitorWait(Monitor.java:241)
+ app//oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:346)
+2024-03-26 10:38:23,052 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] The web application [ROOT] appears to have started a thread named [InterruptTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/java.lang.Object.wait(Native Method)
+ java.base@11.0.10/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.10/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.10/java.util.TimerThread.run(Timer.java:506)
+2024-03-26 10:38:23,058 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] Stopping ProtocolHandler ["http-nio-9999"]
+2024-03-26 10:38:23,064 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(47)-127.0.0.1] Destroying ProtocolHandler ["http-nio-9999"]

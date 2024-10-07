@@ -1,0 +1,31 @@
+2024-09-20 18:07:04,790 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3150)-127.0.0.1] Application shutdown requested.
+2024-09-20 18:07:04,815 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(3150)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-09-20 18:07:04,816 DEBUG org.springframework.context.support.AbstractApplicationContext [RMI TCP Connection(3150)-127.0.0.1] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67af833b, started on Wed Sep 18 13:52:53 GST 2024
+2024-09-20 18:07:04,837 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] Pausing ProtocolHandler ["http-nio-9999"]
+2024-09-20 18:07:04,842 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] Stopping service [Tomcat]
+2024-09-20 18:07:04,843 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-20 18:07:04,847 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] The web application [ROOT] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ app//oracle.jdbc.internal.Monitor$WaitableMonitor.monitorWait(Monitor.java:259)
+ app//oracle.jdbc.internal.Monitor$WaitableMonitor.monitorWait(Monitor.java:241)
+ app//oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:346)
+2024-09-20 18:07:04,849 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] The web application [ROOT] appears to have started a thread named [InterruptTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/java.lang.Object.wait(Native Method)
+ java.base@17.0.7/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.7/java.util.TimerThread.run(Timer.java:516)
+2024-09-20 18:07:04,851 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] Stopping ProtocolHandler ["http-nio-9999"]
+2024-09-20 18:07:04,856 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3150)-127.0.0.1] Destroying ProtocolHandler ["http-nio-9999"]
+2024-09-20 18:07:04,858 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain
+2024-09-20 18:07:04,858 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain
+2024-09-20 18:07:04,858 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain
+2024-09-20 18:07:04,858 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain
+2024-09-20 18:07:04,859 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain
+2024-09-20 18:07:04,859 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain
+2024-09-20 18:07:04,860 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain
+2024-09-20 18:07:05,392 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain
+2024-09-20 18:07:05,392 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain
+2024-09-20 18:07:05,392 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain
+2024-09-20 18:07:05,392 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain
+2024-09-20 18:07:05,393 DEBUG org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter [RMI TCP Connection(3150)-127.0.0.1] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain
