@@ -1,0 +1,2 @@
+# NWS_PAMI_UAT
+ 
